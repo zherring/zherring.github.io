@@ -106,9 +106,6 @@ Sounds like you guys had a blast. Got any pictures?
 {: .q }
 Oh, absolutely.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Team Fantastic Five demoing their awesome internal Q&amp;A system for <a href="https://twitter.com/hashtag/Emc?src=hash">#Emc</a> @ <a href="https://twitter.com/hashtag/emchackathon2016?src=hash">#emchackathon2016</a> <a href="https://t.co/q2IidRWpMI">pic.twitter.com/q2IidRWpMI</a></p>&mdash; Zach Herring (@zherring) <a href="https://twitter.com/zherring/status/770755715229097984">August 30, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">All emc hackathon participants getting some nice emc hackathon 2016 shirts  <a href="https://twitter.com/hashtag/schwag?src=hash">#schwag</a> <a href="https://twitter.com/hashtag/emchackathon2016?src=hash">#emchackathon2016</a> <a href="https://twitter.com/hashtag/EMC2016?src=hash">#EMC2016</a> <a href="https://twitter.com/hashtag/EMC?src=hash">#EMC</a> <a href="https://t.co/7TTsvEb9VE">pic.twitter.com/7TTsvEb9VE</a></p>&mdash; dehru (@dehru) <a href="https://twitter.com/dehru/status/770305999131508736">August 29, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
