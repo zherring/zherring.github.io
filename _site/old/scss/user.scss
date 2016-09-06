@@ -1,0 +1,30 @@
+h1, h2, h3, h4 {
+    font-family: 'Dosis', sans-serif;
+    color: #504F4F;
+}
+
+body { background: #F7F7F7; }
+
+a, a:visited, a:active {
+    text-decoration: none;
+    color: #41CE88;
+    }
+
+a:hover {
+    color: #41CE88;
+    text-decoration: none;
+    }
+
+small { color: #AAA;}
+header { width: 100%; background: url('../img/bg.jpg'); background-size: cover;}
+#container {
+    margin: 2em;
+    align-content: center;
+    align-items: center;
+    max-width: 26em;
+
+    img { max-width: 90%;}
+    .cross { text-decoration: line-through; }
+    div { flex-grow: 1;  }
+    #left p , #right p { font-size: .95em; }
+     }
