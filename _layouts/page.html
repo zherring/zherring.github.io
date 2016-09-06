@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body class="page {{ page.class }}">
+        <div id="back-arr">
+            <a href="/">{% include svg/back.svg %}</a>
+        </div>
+        <article class="post">
+            <header class="splash post-header flex f-col spc-arnd align-c">
+                <img src="{{ page.img }}">
+                <div class="center">
+                    <h1 class="post-title">{{ page.title }}</h1>
+                    <aside> {{ page.aside }}</aside>
+                </div>
+            </header>
+
+            <div class="post-content">
+            {{ content }}
+            </div>
+
+        </article>
+    </body>
+
+</html>

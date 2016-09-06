@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Navigation &amp; Tools</title>
+    <meta name="description" content="The portfolio of Zach Herring.
+">
+
+    <link rel="stylesheet" href="/gh-and-jekyll-test/css/main.css">
+    <!-- <link rel="stylesheet" href="/gh-and-jekyll-test/css/begin.css">
+    <link rel="stylesheet" href="/gh-and-jekyll-test/css/page.css"> -->
+    <link rel="canonical" href="http://www.zachherring.com//gh-and-jekyll-test/nav-and-tools/">
+    <link rel="alternate" type="application/rss+xml" title="Zach Herring Product Designer & Front End Developer" href="http://www.zachherring.com//gh-and-jekyll-test/feed.xml">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"> </script>
+</head>
+
+
+    <body class="page nav-tool shadow">
+        <div id="back-arr">
+            <a href="/gh-and-jekyll-test/"><svg width="43px" height="43px" viewBox="0 0 43 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Tile-View" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="back-ctr">
+                <polyline id="Path-402" stroke-width="3.49999994" points="24.8224137 10.6034483 14.4310345 20.3160369 24.8224137 30.707416"></polyline>
+                <circle id="Oval-115" stroke-width="1.39999998" opacity="0.5" cx="20.5" cy="20.5" r="20.5"></circle>
+        </g>
+    </g>
+</svg>
+</a>
+        </div>
+        <article class="post">
+            <header class="splash post-header flex f-col spc-arnd align-c">
+                <img src="/nav-and-tools/img/multi-select.gif">
+                <div class="center">
+                    <h1 class="post-title">Navigation & Tools</h1>
+                    <aside> Elastic patterns for a plethora of edge cases</aside>
+                </div>
+            </header>
+
+            <div class="post-content">
+            <h2 id="the-problem">The Problem</h2>
+
+<blockquote>
+  <p>”How do you build a flexible navigation while the road map could be anything?”</p>
+</blockquote>
+
+<p>This is one of the questions UI/UX Services at EMC has been answering over the last 6 months. We were tasked with designing a bullet-proof information hierarchy and navigational structure for three ongoing applications with radically different feature-sets.</p>
+
+<h2 id="guiding-principles">Guiding Principles</h2>
+<p>Over three meetings, we presented research and reviewed the types of interactions and structures most common to EMC products. When research concluded, three unifying principles emerged out of the dialog to guide the following solutions.</p>
+
+<ul>
+  <li>
+    <p><strong>Flexibility</strong> - Because some feature’s complexity approaching that of stand-alone applications in other fields, extendibility became a key focus for our team.</p>
+  </li>
+  <li>
+    <p><strong>Clutter-Free</strong> - The actions and management of complex data flows also necessitated a toolset and navigation that was out of the way when not needed, providing users of all screen sizes (desktop and mobile) a distraction-free workspace.</p>
+  </li>
+  <li>
+    <p><strong>Powerful</strong> - “Power user” is an attribute of two of our three most common Personas, so a smart navigation that provided access to 2nd, 3rd and ancillary data points was also a must-have.</p>
+  </li>
+</ul>
+
+<!-- ### Methodology
+
+<div class="wide" markdown="0">
+    <div class="grid">
+        <div>
+            <h5>Audit</h5>
+            <img src="img/method-audit.png">
+            <p>Over email and confluence, we pulled a full audit of the applications using EMC-UI.</p>
+        </div>
+        <div>
+            <h5>Feature Mapping</h5>
+            <img src="img/method-feature.png">
+            <p>Over whiteboards and Sketch, we laid out maps of each application. We circled common patterns and data structures and used those as starting points to design from.</p>
+        </div>
+
+        <div>
+            <h5>Research</h5>
+            <img src="img/method-research.png">
+            <p>Prototyping and research into context, as well as</p>
+        </div>
+
+        <div>
+            <h5>Testing</h5>
+            <img src="img/method-test.png">
+            <p>This is the text here, this is what we're talking now.</p>
+        </div>     
+    </div>   
+</div> -->
+
+<h3 id="the-results">The Results</h3>
+<p>After 6 months, we delivered the last of our framework changes to EMC-UI.</p>
+
+<div class="stretch">
+    <img alt="The Finished Product" src="img/old-and-new.svg" />
+</div>
+
+<h3 id="omni-nav">Omni-Nav</h3>
+<p>We settled on an Omni-Navigational window, build out with each mini-application inside the main pain, as well as system Utilities.</p>
+
+<p class="center"><img src="img/omni-menu.gif" alt="&quot;Omni-Nav&quot;" /></p>
+
+<p>The omni-search at the top works from an index of the entire site; you can access pages 2 or 3 levels deep within that single page, as well as Tags and Events thrown by the Application itself.</p>
+
+<p><strong>Details</strong> We spent an extra hour and a half adding hotkeys  for opening, searching and traversing the omni-panel. We had a lot of fun adding in these little details for the power user personas.</p>
+
+<h3 id="secondary-nav">Secondary Nav</h3>
+<p>The secondary navigation was actually the last piece of the puzzle we committed to. We iterated through 4 different approaches before we landed the final solution. The prototype below, coded by <a href="codepen.com/jasesmith">Jase Smith</a>was one of the tests we threw against the solution.</p>
+
+<div class="wide">
+<p data-height="680" data-theme-id="light" data-slug-hash="RraJwJ" data-default-tab="result" data-user="jasesmith" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/jasesmith/pen/RraJwJ/">UI Concept: The Whale</a> by Jase (<a href="http://codepen.io/jasesmith">@jasesmith</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async="" src="//assets.codepen.io/assets/embed/ei.js"></script>
+</div>
+
+<!-- ### Action Bar
+!["Omni-Nav"](img/omni-menu.gif)
+{: .center } -->
+
+<h3 id="app-utilities">App Utilities</h3>
+<p>Rounding out the approach were the utilities attached to each view, Multi-Select Actions, Notifications and site-wide Searching.</p>
+
+<p class="wide tile-3"><img src="img/multi-select.gif" alt="&quot;Multi-Select&quot;" /> <img src="img/nc.gif" alt="&quot;Notification Center&quot;" /> <img src="img/o-s.gif" alt="&quot;Omni-Search&quot;" /></p>
+
+<!-- {: .wide }
+<span>Testing, this is a test, test cool.</span> <span> Testing 2.</span>
+{: .block .wide } -->
+
+<h2 id="results">Results</h2>
+<ul>
+  <li><em>Fewer Clicks</em> - Simple hueristic analyis of navigation and common actions saw a 25-35% reduction in task complexity.</li>
+  <li><em>Coherent IA</em> - The userflow maps we created before were rats nests. These were saner, and have already erased the difficult navigational decisions we’ve had to make.</li>
+  <li><em>Better Tests</em> - We approached an outside UX Research org to operate separately to keep us honest through the developement. Separate UX Researchers confirmed our test results with vastly improved usability KPIs.</li>
+  <li><em>Proliferation</em> - This work combined with higher inter-org outreach saw an increase from</li>
+</ul>
+
+            </div>
+
+        </article>
+    </body>
+
+</html>

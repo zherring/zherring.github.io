@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    <!-- {% include header.html %} -->
+    <div id="container" class="grid safari_only">
+
+
+
+        {% for page in site.pages %}
+
+            {% if page.type == "hide" %}
+                &nbsp;
+            {% endif %}
+
+            {% if page.type == "front" %}
+                {{page.content}}
+            {% endif %}
+
+
+            {% if page.type == "project" %}
+                <article class="{{ page.class }}">
+                    <a class="splash" href="{{ site.baseurl }}{{ page.url }}">
+                    <img src=" {{ page.img }}" />
+                    <h2> {{ page.title }} </h2>
+                    <aside> {{ page.aside }} </aside>
+                    </a>
+                </article>
+            {% endif%}
+
+        {% endfor %}
+
+
+    </div>
+    <!-- {% include footer.html %} -->
+
+  </body>
+
+</html>
