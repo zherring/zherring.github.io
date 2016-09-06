@@ -6,7 +6,7 @@ $emc-blue: #2C95DD;
 $gray: #B3B3B3;
 $dark-gray: #6F6F6F;
 
-$stop-width: 70rem;
+$stop-width: 64rem;
 $half-width: ($stop-width / 2) + 0rem;
 $font-main: "Roboto Slab";
 $font-second: "Roboto Slab";
@@ -141,8 +141,8 @@ h1, h2, h3, h4, h5 {
     article:first-child, .grid a {
         width: 49.75vw;
         height: 49.75vw;
-        max-width: calc(35rem - .25vw );
-        max-height: calc(35rem - .25vw );
+        max-width: calc(32rem - .25vw );
+        max-height: calc(32rem - .25vw );
         padding: 1vw;
         box-sizing: border-box;
         flex-grow: 1;

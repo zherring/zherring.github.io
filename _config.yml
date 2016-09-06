@@ -8,8 +8,7 @@
 # Site settings
 title: Zach Herring Product Designer & Front End Developer
 email: z.herring@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-     The portfolio of Zach Herring.
+description: The portfolio of Zach Herring.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.zachherring.com/" # the base hostname & protocol for your site
 twitter_username: zherring

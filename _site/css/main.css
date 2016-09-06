@@ -243,13 +243,13 @@ h1, h2, h3, h4, h5 { font-family: "Roboto Slab", serif; font-weight: 800; color:
 #social a svg { transform: scale(0.9, 0.9); margin: .1rem; opacity: .9; transition: all .05s ease-in-out; }
 #social a:hover svg { transform: scale(1, 1); opacity: 1; }
 
-#container { display: flex; flex-wrap: wrap; flex-direction: row; margin: 0; padding: 0; margin: 0 auto; max-width: 70rem; box-sizing: border-box; }
+#container { display: flex; flex-wrap: wrap; flex-direction: row; margin: 0; padding: 0; margin: 0 auto; max-width: 64rem; box-sizing: border-box; }
 #container article { margin: .25vw .5vw; }
 #container article:nth-child(-n+2) { margin-top: 0; }
 #container article:nth-child(1n+1) { margin-left: 0; }
 #container article:nth-child(2n+2) { margin-right: 0; }
 
-article:first-child, .grid a { width: 49.75vw; height: 49.75vw; max-width: calc(35rem - .25vw ); max-height: calc(35rem - .25vw ); padding: 1vw; box-sizing: border-box; flex-grow: 1; justify-content: center; }
+article:first-child, .grid a { width: 49.75vw; height: 49.75vw; max-width: calc(32rem - .25vw ); max-height: calc(32rem - .25vw ); padding: 1vw; box-sizing: border-box; flex-grow: 1; justify-content: center; }
 article:first-child img, .grid a img { width: 60%; }
 
 .post { text-align: left; }
