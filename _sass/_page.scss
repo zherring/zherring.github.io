@@ -36,8 +36,12 @@ $pages: (
 
     .#{$key} {
 
-    .q, a { color: lighten($value, 10); }
+    .q, a { color: $value; }
     a:visited { color: $value; }
+
+    h3::after {
+        background: $value;
+        }
 
     @if( lightness($value) > 50) {
         #back-ctr { stroke:  adjust-hue($value, -14); }
@@ -102,8 +106,7 @@ h3 {
         padding: 1px;
         margin-top: .4ch; // feels more natural to center on non-ascenders
         margin-left: 1ch;
-        background: currentColor;
-        opacity: .1;
+        opacity: .3;
         }
     }
 

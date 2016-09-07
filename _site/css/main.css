@@ -299,24 +299,27 @@ article:first-child img, .grid a img { width: 60%; }
 .splash aside { font-size: .95rem; }
 .splash:hover { text-decoration: none; }
 
-.nav-tool .q, .nav-tool a { color: #ffd458; }
+.nav-tool .q, .nav-tool a { color: #FFC725; }
 .nav-tool a:visited { color: #FFC725; }
+.nav-tool h3::after { background: #FFC725; }
 .nav-tool #back-ctr { stroke: #ff9425; }
 .nav-tool.splash, .nav-tool .splash { background: #FFC725; background-image: linear-gradient(171deg, #FFC725 70%, #ff9425 130%); }
 .nav-tool.splash h1, .nav-tool.splash h2, .nav-tool .splash h1, .nav-tool .splash h2 { text-shadow: 0 4px 2px #f1b300; color: #FFF; }
 .nav-tool.splash aside, .nav-tool .splash aside { color: #be8d00; }
 .nav-tool.splash.shadow .splash img, .nav-tool .splash.shadow .splash img { box-shadow: 0 4px 4px #e7ac00; }
 
-.install .q, .install a { color: #60b2e8; }
+.install .q, .install a { color: #339CE2; }
 .install a:visited { color: #339CE2; }
+.install h3::after { background: #339CE2; }
 .install #back-ctr { stroke: #33c5e2; }
 .install.splash, .install .splash { background: #339CE2; background-image: linear-gradient(171deg, #339CE2 70%, #33c5e2 130%); }
 .install.splash h1, .install.splash h2, .install .splash h1, .install .splash h2 { text-shadow: 0 4px 2px #1c82c6; color: #FFF; }
 .install.splash aside, .install .splash aside { color: #166599; }
 .install.splash.shadow .splash img, .install .splash.shadow .splash img { box-shadow: 0 4px 4px #1b7cbd; }
 
-.hackathon .q, .hackathon a { color: #626262; }
+.hackathon .q, .hackathon a { color: #484848; }
 .hackathon a:visited { color: #484848; }
+.hackathon h3::after { background: #484848; }
 .hackathon #back-ctr { stroke: #7b7b7b; }
 .hackathon.splash, .hackathon .splash { background: #484848; background-image: linear-gradient(171deg, #484848 70%, #484848 130%); }
 .hackathon.splash h1, .hackathon.splash h2, .hackathon .splash h1, .hackathon .splash h2 { text-shadow: 0 4px 2px #2f2f2f; color: #FFF; }
@@ -334,7 +337,7 @@ article { align-items: center; }
 .post-content h1 { font-size: 2.6rem; }
 .post-content h2 { font-size: 1.8rem; }
 .post-content h3 { font-size: 1.3rem; display: flex; align-items: center; }
-.post-content h3::after { content: ''; flex: 1; padding: 1px; margin-top: .4ch; margin-left: 1ch; background: currentColor; opacity: .1; }
+.post-content h3::after { content: ''; flex: 1; padding: 1px; margin-top: .4ch; margin-left: 1ch; opacity: .3; }
 .post-content .block { display: flex; flex-direction: row; }
 
 section > div { height: .2rem; background: #EAEAEA; width: auto; }
