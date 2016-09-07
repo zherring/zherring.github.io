@@ -221,7 +221,7 @@ h1 { font-family: "Roboto Slab", san-serif; }
 
 h1, h2, h3, h4, h5 { font-family: "Roboto Slab", serif; font-weight: 800; color: #353535; }
 
-#bio { display: flex; flex-direction: column; justify-content: center; text-align: left; background: #FFF; font-family: "Roboto Slab"; color: #6F6F6F; align-items: flex-start; line-height: 2.8em; }
+#bio { display: flex; flex-direction: column; justify-content: center; text-align: left; background: #FFF; font-family: "Roboto Slab"; color: #6F6F6F; padding: 0 6vw; align-items: flex-start; line-height: 2.8em; }
 #bio span { display: inline-block; width: 1.6rem; height: 1.6rem; padding: 0 .2ch; background-repeat: no-repeat; background-position: center center; background-size: contain; }
 #bio span.me { background-image: url("/img/emoji-me.png"); margin-left: -.25em; }
 #bio span.boulder { background-image: url("/img/emoji-boulder.svg"); color: FF3D00; }
@@ -281,6 +281,7 @@ article:first-child img, .grid a img { width: 60%; }
   /* Safari 9.0+ (non-iOS) */ }
 @media screen and (max-width: 940px) { body { font-size: 12px; } }
 @media screen and (max-width: 425px) { body { font-size: 4vw; }
+  #bio { padding: 0 0vw; }
   .grid, #container { display: normal; }
   #bio, article, .grid a { max-width: 100%; width: 100%; height: 50vh; }
   #bio br, article br, .grid a br { display: none; }
