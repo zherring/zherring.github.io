@@ -283,10 +283,10 @@ article:first-child img, .grid a img { width: 60%; }
   /* Safari 9.0+ (non-iOS) */ }
 @media screen and (max-width: 940px) { body { font-size: 12px; } }
 @media screen and (max-width: 425px) { body { font-size: 4vw; }
-  #bio { padding: 0 0vw; }
+  #bio { padding: 0 .5vw; }
   .grid, #container { display: normal; }
-  #bio, article, #container a { max-width: 100%; width: 100%; height: 64vh; margin: .25vw 0; }
-  #bio br, article br, #container a br { display: none; }
+  #container article, #container a { max-width: 100%; width: 100%; height: 64vh; margin: .25vw 0; }
+  #container article br, #container a br { display: none; }
   .post-content { padding: 1rem; box-sizing: border-box; } }
 .q { font-style: italic; font-weight: bold; }
 
