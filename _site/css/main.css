@@ -291,6 +291,7 @@ article:first-child img, .grid a img { width: 60%; }
 .q { font-style: italic; font-weight: bold; }
 
 #back-arr { position: fixed; left: 1rem; top: 1rem; }
+#back-arr svg { padding: 1px; }
 
 .splash { padding: 2em 0; display: flex; flex-direction: column; align-items: center; }
 .splash > * { margin: .5em; }
