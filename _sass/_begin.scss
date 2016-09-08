@@ -262,6 +262,10 @@ h1, h2, h3, h4, h5 {
         font-size: 1.7vmax;
         line-height: 3.5vmax;
         }
+        span.me {
+            height: 1.7vmax;
+            width: 1.7vmax
+            }
     // br { display: none; }
     /* Safari 9.0+ (non-iOS) */
 
@@ -270,19 +274,30 @@ h1, h2, h3, h4, h5 {
 @media screen and (max-width: 940px) {
     body { font-size: 12px; }
     // br { display: none; }
-    #bio p {
+    #bio {
+        p {
         font-size: 2.2vmax;
         line-height: 3.2vmax;
         }
+        span.me {
+            height: 2.2vmax;
+            width: 2.2vmax
+            }
+    }
 }
 
 
 @media screen and (max-width: 425px ) {
     body { font-size: 4vw; }
     #bio { padding: 0 .5vw;
-    p {
+        p {
         font-size: 6.2vmin;
         line-height: 11.2vmin;
+        }
+        span.me {
+            height: 6.2vmin;
+            width: 6.2vmin
+
         }
     }
 
