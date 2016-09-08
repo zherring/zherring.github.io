@@ -22,12 +22,11 @@
 
 
             {% if page.type == "project" %}
-                    <a class="splash {{ page.class }}" href="{{ site.baseurl }}{{ page.url }}">
+                <a class="splash {{ page.class }}" href="{{ site.baseurl }}{{ page.url }}">
                     <img src=" {{ page.img }}" />
                     <h2> {{ page.title }} </h2>
                     <aside> {{ page.aside }} </aside>
-                    </a>
-                </article>
+                </a>
             {% endif%}
 
         {% endfor %}
