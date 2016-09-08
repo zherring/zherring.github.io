@@ -22,8 +22,7 @@
 
 
             {% if page.type == "project" %}
-                <article class="{{ page.class }}">
-                    <a class="splash" href="{{ site.baseurl }}{{ page.url }}">
+                    <a class="splash {{ page.class }}" href="{{ site.baseurl }}{{ page.url }}">
                     <img src=" {{ page.img }}" />
                     <h2> {{ page.title }} </h2>
                     <aside> {{ page.aside }} </aside>
