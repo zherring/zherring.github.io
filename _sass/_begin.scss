@@ -273,6 +273,7 @@ h1, h2, h3, h4, h5 {
     #bio { padding: 0 .5vw; }
 
     .grid, #container { display: normal; }
+    #bio p { padding: 0 1vw; }
     #container article, #container a {
         max-width: 100%;
         width: 100%;
@@ -295,6 +296,7 @@ h1, h2, h3, h4, h5 {
     &:after {
         content: "Codepen embeds disabled for mobile.";
         color: #FFF;
+        text-align: center;
         }
     }
 
