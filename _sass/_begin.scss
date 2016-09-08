@@ -14,7 +14,7 @@ $font-body: "Helvetica Neue";
 
 
 /// UTIL
-* { box-sizing: border-box; }
+* {  }
 .center { text-align: center; }
 .flex { display: flex; }
 .align-top { justify-content: space-between; align-items: top; }
@@ -93,7 +93,6 @@ h1, h2, h3, h4, h5 {
         color: #858585;
         font-weight: lighter;
         font-size: 1.6em;
-        text-align: center;
         }
     > * { width: 100%; }
     aside { font-weight: 700; font-size: 2rem; }
@@ -120,7 +119,7 @@ h1, h2, h3, h4, h5 {
     padding: 0;
     margin: 0 auto;
     max-width: 100%;
-    box-sizing: border-box;
+    
 
 
     article, a {
@@ -137,7 +136,7 @@ h1, h2, h3, h4, h5 {
         width: 49.75vw;
         height: 49.75vw;
         padding: 1vw;
-        box-sizing: border-box;
+
         justify-content: center;
 
         img { width: 60%; }
@@ -281,7 +280,7 @@ h1, h2, h3, h4, h5 {
         margin: .25vw 0;
     & br { display: none;}
     }
-    .post-content { padding: 1rem; box-sizing: border-box; }
+    .post-content { padding: 1rem;  }
 
 
 }
