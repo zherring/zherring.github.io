@@ -4,12 +4,24 @@ $light-gray: #EAEAEA;
     font-style: italic;
     font-weight: bold;
 }
-#back-arr {
+
+// svg:hover { zoom: 10; }
+
+.back-arr {
     position: fixed;
     left: 1rem;
     top: 1rem;
-    svg { padding: 1px; }
+    svg {
+        zoom: .8;
+        padding: 1px;
+        }
 }
+
+svg, polyline#arrow, circle#circle { transition: all .1s ease-out; }
+svg:hover {
+    circle { opacity: 1; }
+    }
+
 
 .splash {
     // height: 50vh;
@@ -37,17 +49,21 @@ $pages: (
 
     .#{$key} {
 
+    svg:hover #back-ctr polyline#arrow { stroke: #F3F3F3; }
+
     .q, a { color: $value; }
     a:visited { color: $value; }
 
-    h3::after {
-        background: $value;
-        }
+    h3::after { background: $value; }
 
     @if( lightness($value) > 50) {
-        #back-ctr { stroke:  adjust-hue($value, -14); }
+
+        .back-arr circle#circle, .back-arr polyline#arrow { stroke:  adjust-hue($value, -14); }
+        svg:hover circle#circle { stroke: none; fill: adjust-hue($value, -14);  }
+
         } @else {
-        #back-ctr { stroke:  lighten($value, 20); }
+        #back-ctr #circle, #back-ctr #arrow { stroke:  lighten($value, 20); }
+        svg:hover circle#circle { stroke: none; fill: lighten($value, 20); }
         }
 
         &.splash, .splash {

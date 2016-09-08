@@ -223,8 +223,8 @@ h1 { font-family: "Roboto Slab", san-serif; }
 
 h1, h2, h3, h4, h5 { font-family: "Roboto Slab", serif; font-weight: 800; color: #353535; }
 
-#bio { display: flex; flex-direction: column; justify-content: center; text-align: left; background: #FFF; font-family: "Roboto Slab"; color: #6F6F6F; padding: 0 6vw; align-items: flex-start; line-height: 2.8em; }
-#bio span { display: inline-block; width: 1.6rem; height: 1.6rem; padding: 0 .2ch; background-repeat: no-repeat; background-position: center center; background-size: contain; }
+#bio { display: flex; flex-direction: column; justify-content: center; text-align: left; background: #FFF; font-family: "Roboto Slab"; color: #6F6F6F; padding: 0 6vw; align-items: flex-start; }
+#bio span { display: inline-block; width: 2.2vmax; height: 2.2vmax; margin-right: .2vmax; padding: 0 .2ch; background-repeat: no-repeat; background-position: center center; background-size: contain; }
 #bio span.me { background-image: url("/img/emoji-me.png"); margin-left: -.25em; }
 #bio span.boulder { background-image: url("/img/emoji-boulder.svg"); color: FF3D00; }
 #bio span.sketch { background-image: url("/img/emoji-sketch.svg"); color: FF3D00; }
@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5 { font-family: "Roboto Slab", serif; font-weight: 800; color:
 #bio strong.sketch { color: #FACF53; }
 #bio strong.code { color: #9253FA; }
 #bio strong.rad { color: red; transition: color ease-in-out; animation: rad .25s infinite; }
-#bio p { color: #858585; font-weight: lighter; font-size: 1.6em; }
+#bio p { color: #858585; font-weight: lighter; font-size: 2.3vmax; line-height: 4.5vmax; }
 #bio > * { width: 100%; }
 #bio aside { font-weight: 700; font-size: 2rem; }
 
@@ -280,10 +280,13 @@ article:first-child img, .grid a img { width: 60%; }
   80% { color: magenta; }
   100% { color: red; } }
 @media screen and (max-width: 940px) { body { font-size: 14px; }
+  #bio p { font-size: 1.7vmax; line-height: 3.5vmax; }
   /* Safari 9.0+ (non-iOS) */ }
-@media screen and (max-width: 940px) { body { font-size: 12px; } }
+@media screen and (max-width: 940px) { body { font-size: 12px; }
+  #bio p { font-size: 2.2vmax; line-height: 3.2vmax; } }
 @media screen and (max-width: 425px) { body { font-size: 4vw; }
   #bio { padding: 0 .5vw; }
+  #bio p { font-size: 6.2vmin; line-height: 11.2vmin; }
   .grid, #container { display: normal; }
   #bio p { padding: 0 1vw; }
   #container article, #container a { max-width: 100%; width: 100%; height: 64vh; margin: .25vw 0; }
@@ -294,8 +297,12 @@ article:first-child img, .grid a img { width: 60%; }
   .post-content .codepen:after { content: "Codepen embeds disabled for mobile."; color: #FFF; text-align: center; } }
 .q { font-style: italic; font-weight: bold; }
 
-#back-arr { position: fixed; left: 1rem; top: 1rem; }
-#back-arr svg { padding: 1px; }
+.back-arr { position: fixed; left: 1rem; top: 1rem; }
+.back-arr svg { zoom: .8; padding: 1px; }
+
+svg, polyline#arrow, circle#circle { transition: all .1s ease-out; }
+
+svg:hover circle { opacity: 1; }
 
 .splash { padding: 2em 0; display: flex; flex-direction: column; align-items: center; }
 .splash > * { margin: .5em; }
@@ -304,28 +311,34 @@ article:first-child img, .grid a img { width: 60%; }
 .splash aside { font-size: .95rem; }
 .splash:hover { text-decoration: none; }
 
+.nav-tool svg:hover #back-ctr polyline#arrow { stroke: #F3F3F3; }
 .nav-tool .q, .nav-tool a { color: #FFC725; }
 .nav-tool a:visited { color: #FFC725; }
 .nav-tool h3::after { background: #FFC725; }
-.nav-tool #back-ctr { stroke: #ff9425; }
+.nav-tool .back-arr circle#circle, .nav-tool .back-arr polyline#arrow { stroke: #ff9425; }
+.nav-tool svg:hover circle#circle { stroke: none; fill: #ff9425; }
 .nav-tool.splash, .nav-tool .splash { background: #FFC725; background-image: linear-gradient(171deg, #FFC725 70%, #ff9425 130%); }
 .nav-tool.splash h1, .nav-tool.splash h2, .nav-tool .splash h1, .nav-tool .splash h2 { text-shadow: 0 4px 2px #f1b300; color: #FFF; }
 .nav-tool.splash aside, .nav-tool .splash aside { color: #be8d00; }
 .nav-tool.splash.shadow .splash img, .nav-tool .splash.shadow .splash img { box-shadow: 0 4px 4px #e7ac00; }
 
+.install svg:hover #back-ctr polyline#arrow { stroke: #F3F3F3; }
 .install .q, .install a { color: #339CE2; }
 .install a:visited { color: #339CE2; }
 .install h3::after { background: #339CE2; }
-.install #back-ctr { stroke: #33c5e2; }
+.install .back-arr circle#circle, .install .back-arr polyline#arrow { stroke: #33c5e2; }
+.install svg:hover circle#circle { stroke: none; fill: #33c5e2; }
 .install.splash, .install .splash { background: #339CE2; background-image: linear-gradient(171deg, #339CE2 70%, #33c5e2 130%); }
 .install.splash h1, .install.splash h2, .install .splash h1, .install .splash h2 { text-shadow: 0 4px 2px #1c82c6; color: #FFF; }
 .install.splash aside, .install .splash aside { color: #166599; }
 .install.splash.shadow .splash img, .install .splash.shadow .splash img { box-shadow: 0 4px 4px #1b7cbd; }
 
+.hackathon svg:hover #back-ctr polyline#arrow { stroke: #F3F3F3; }
 .hackathon .q, .hackathon a { color: #484848; }
 .hackathon a:visited { color: #484848; }
 .hackathon h3::after { background: #484848; }
-.hackathon #back-ctr { stroke: #7b7b7b; }
+.hackathon #back-ctr #circle, .hackathon #back-ctr #arrow { stroke: #7b7b7b; }
+.hackathon svg:hover circle#circle { stroke: none; fill: #7b7b7b; }
 .hackathon.splash, .hackathon .splash { background: #484848; background-image: linear-gradient(171deg, #484848 70%, #484848 130%); }
 .hackathon.splash h1, .hackathon.splash h2, .hackathon .splash h1, .hackathon .splash h2 { text-shadow: 0 4px 2px #2f2f2f; color: #FFF; }
 .hackathon.splash aside, .hackathon .splash aside { color: #7b7b7b; }
