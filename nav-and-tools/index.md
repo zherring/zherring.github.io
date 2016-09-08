@@ -76,7 +76,7 @@ The omni-search at the top works from an index of the entire site; you can acces
 ### Secondary Nav
 The secondary navigation was actually the last piece of the puzzle we committed to. We iterated through 4 different approaches before we landed the final solution. The prototype below, coded by <a href="codepen.com/jasesmith">Jase Smith</a> was one of the tests we threw against the solution.
 
-<div class="wide" markdown="0">
+<div class="wide codepen" markdown="0">
 <p data-height="680" data-theme-id="light" data-slug-hash="RraJwJ" data-default-tab="result" data-user="jasesmith" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/jasesmith/pen/RraJwJ/">UI Concept: The Whale</a> by Jase (<a href="http://codepen.io/jasesmith">@jasesmith</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 </div>
