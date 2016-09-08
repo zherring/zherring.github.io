@@ -11,6 +11,7 @@ $light-gray: #EAEAEA;
     position: fixed;
     left: 1rem;
     top: 1rem;
+    z-index: 100;
     svg {
         zoom: .8;
         padding: 1px;
