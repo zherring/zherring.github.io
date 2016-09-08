@@ -14,7 +14,7 @@ $font-body: "Helvetica Neue";
 
 
 /// UTIL
-
+* { box-sizing: border-box; }
 .center { text-align: center; }
 .flex { display: flex; }
 .align-top { justify-content: space-between; align-items: top; }

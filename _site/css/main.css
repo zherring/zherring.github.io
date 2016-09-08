@@ -179,6 +179,8 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
 
+* { box-sizing: border-box; }
+
 .center { text-align: center; }
 
 .flex { display: flex; }
