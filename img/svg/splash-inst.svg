@@ -1,37 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="221px" height="232px" viewBox="0 0 221 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
-    <title>tile-active</title>
+<svg width="221px" height="228px" viewBox="0 0 221 228" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>splash-inst</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="80.6376537%" y1="74.1215657%" x2="41.2782257%" y2="15.457556%" id="linearGradient-1">
+        <linearGradient x1="67.8180434%" y1="74.1215657%" x2="44.9276484%" y2="15.457556%" id="linearGradient-1">
             <stop stop-color="#38C4F1" stop-opacity="0" offset="0%"></stop>
             <stop stop-color="#1A91DD" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="help-text" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="tile-active">
-            <path d="M143.736662,95.6622164 L171.577148,130.948282 L137.877139,165.233225 L120.9609,168.650658 L82.0178212,126.342596 C82.0178212,126.342596 80.6375717,125.482516 79.0000618,123.064079 C77.3625519,120.645642 75,113.031571 75,113.031571 L102.192247,120.700944 L139.54847,95 L143.736662,95.6622164 Z" id="shadow" fill="url(#linearGradient-1)" opacity="0.5" style="mix-blend-mode: multiply;"></path>
-            <g id="rays" transform="translate(3.000000, 4.000000)" stroke="#FFFFFF" stroke-width="5.75999989" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="17.28000022888182">
-                <path d="M107.5,0.36038961 L107.5,221.321542" id="Line-Copy-2"></path>
-                <path d="M0,110.5 L214.342871,110.5" id="Line-Copy-12"></path>
-                <path d="M191,193 L24,30" id="Line-Copy-15"></path>
-                <path d="M61,208 L155,14" id="Line-Copy-16" transform="translate(108.000000, 111.000000) scale(-1, 1) translate(-108.000000, -111.000000) "></path>
-                <path d="M61,208 L155,14" id="Line-Copy-17"></path>
-                <path d="M61,208 L155,14" id="Line-Copy-18"></path>
-                <path d="M209,152 L5,72" id="Line-Copy-19"></path>
-                <path d="M209,152 L5,72" id="Line-Copy-20" transform="translate(107.000000, 112.000000) scale(-1, 1) translate(-107.000000, -112.000000) "></path>
-                <path d="M61,208 L155,14" id="Line-Copy-21" transform="translate(108.000000, 111.000000) scale(-1, 1) translate(-108.000000, -111.000000) "></path>
-                <path d="M191,30 L24,193" id="Line-Copy-22"></path>
-            </g>
-            <rect id="mask" fill="#339CE2" x="31" y="36" width="158" height="158" rx="14.3999997"></rect>
-            <rect id="tile" fill="#EAF4FB" x="35" y="40" width="149" height="149" rx="14.3999997"></rect>
-            <g id="check-group" transform="translate(58.000000, 62.000000)">
-                <path d="M51.5886076,103.821918 C80.0802088,103.821918 103.177215,80.5805899 103.177215,51.9109589 C103.177215,23.241328 80.0802088,0 51.5886076,0 C23.0970064,0 0,23.241328 0,51.9109589 C0,80.5805899 23.0970064,103.821918 51.5886076,103.821918 Z" id="Oval-1" stroke="#2C95DD" stroke-width="1.43999997" opacity="0.275886194"></path>
-                <path d="M86.0214102,32.7166096 L113.861897,68.0026755 L80.1618869,102.287618 L63.2456487,105.705051 L24.3025695,63.3969889 C24.3025695,63.3969889 22.92232,62.5369087 21.2848101,60.1184717 C19.6473002,57.7000348 17.2847483,50.0859643 17.2847483,50.0859643 L44.4769952,57.7553376 L81.833218,32.0543932 L86.0214102,32.7166096 Z" id="Path-14" fill="url(#linearGradient-1)" opacity="0.5" style="mix-blend-mode: multiply;"></path>
-                <text id="" font-family="FontAwesome" font-size="79.1999984" font-weight="normal" fill="#2C95DD">
-                    <tspan x="11.5443038" y="75.9863014"></tspan>
-                </text>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="splash-inst" transform="translate(3.000000, 3.000000)">
+            <g id="help-text">
+                <g id="tile-active">
+                    <path d="M140.736662,91.6622164 L168.577148,126.948282 L134.877139,161.233225 L117.9609,164.650658 L79.0178212,122.342596 C79.0178212,122.342596 77.6375717,121.482516 76.0000618,119.064079 C74.3625519,116.645642 72,109.031571 72,109.031571 L99.192247,116.700944 L136.54847,91 L140.736662,91.6622164 L140.736662,91.6622164 Z" id="shadow" fill="url(#linearGradient-1)" opacity="0.5" style="mix-blend-mode: multiply;"></path>
+                    <g id="rays" stroke="#FFFFFF" stroke-width="5.75999989" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="17.28000022888182">
+                        <path d="M107.5,0.36038961 L107.5,221.321542" id="Line-Copy-2"></path>
+                        <path d="M0,110.5 L214.342871,110.5" id="Line-Copy-12"></path>
+                        <path d="M191,193 L24,30" id="Line-Copy-15"></path>
+                        <path d="M61,208 L155,14" id="Line-Copy-16" transform="translate(108.000000, 111.000000) scale(-1, 1) translate(-108.000000, -111.000000) "></path>
+                        <path d="M61,208 L155,14" id="Line-Copy-17"></path>
+                        <path d="M61,208 L155,14" id="Line-Copy-18"></path>
+                        <path d="M209,152 L5,72" id="Line-Copy-19"></path>
+                        <path d="M209,152 L5,72" id="Line-Copy-20" transform="translate(107.000000, 112.000000) scale(-1, 1) translate(-107.000000, -112.000000) "></path>
+                        <path d="M61,208 L155,14" id="Line-Copy-21" transform="translate(108.000000, 111.000000) scale(-1, 1) translate(-108.000000, -111.000000) "></path>
+                        <path d="M191,30 L24,193" id="Line-Copy-22"></path>
+                    </g>
+                    <rect id="mask" fill="#339CE2" x="28" y="32" width="158" height="158" rx="14.3999997"></rect>
+                    <rect id="tile" fill="#EAF4FB" x="32" y="36" width="149" height="149" rx="14.3999997"></rect>
+                    <g id="check-group" transform="translate(55.000000, 58.000000)">
+                        <path d="M51.5886076,103.821918 C80.0802088,103.821918 103.177215,80.5805899 103.177215,51.9109589 C103.177215,23.241328 80.0802088,0 51.5886076,0 C23.0970064,0 0,23.241328 0,51.9109589 C0,80.5805899 23.0970064,103.821918 51.5886076,103.821918 L51.5886076,103.821918 Z" id="Oval-1" stroke="#2C95DD" stroke-width="1.43999997" opacity="0.275886194"></path>
+                        <path d="M86.0214102,32.7166096 L113.861897,68.0026755 L80.1618869,102.287618 L63.2456487,105.705051 L24.3025695,63.3969889 C24.3025695,63.3969889 22.92232,62.5369087 21.2848101,60.1184717 C19.6473002,57.7000348 17.2847483,50.0859643 17.2847483,50.0859643 L44.4769952,57.7553376 L81.833218,32.0543932 L86.0214102,32.7166096 L86.0214102,32.7166096 Z" id="Path-14" fill="url(#linearGradient-1)" opacity="0.5" style="mix-blend-mode: multiply;"></path>
+                        <g id="" transform="translate(16.000000, 22.000000)" fill="#339CE2">
+                            <path d="M69.3965345,11.1157666 C69.3965345,12.2943438 68.9840386,13.2961195 68.1590345,14.1211236 L36.1608208,46.1193373 L30.1501067,52.1300514 C29.3251026,52.9550555 28.3233269,53.3675514 27.1447496,53.3675514 C25.9661723,53.3675514 24.9643966,52.9550555 24.1393925,52.1300514 L18.1286783,46.1193373 L2.12957152,30.1202305 C1.30456742,29.2952263 0.892071549,28.2934507 0.892071549,27.1148734 C0.892071549,25.9362961 1.30456742,24.9345204 2.12957152,24.1095163 L8.14028569,18.0988021 C8.9652898,17.273798 9.96706547,16.8613022 11.1456428,16.8613022 C12.3242201,16.8613022 13.3259957,17.273798 14.1509999,18.0988021 L27.1447496,31.1367483 L56.1376061,2.09969531 C56.9626103,1.2746912 57.9643859,0.86219533 59.1429632,0.86219533 C60.3215405,0.86219533 61.3233162,1.2746912 62.1483203,2.09969531 L68.1590345,8.11040947 C68.9840386,8.93541358 69.3965345,9.93718925 69.3965345,11.1157666 L69.3965345,11.1157666 Z"></path>
+                        </g>
+                    </g>
+                </g>
             </g>
         </g>
     </g>
