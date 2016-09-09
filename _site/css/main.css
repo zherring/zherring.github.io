@@ -244,7 +244,7 @@ h1, h2, h3, h4, h5 { font-family: "Roboto Slab", serif; font-weight: 800; color:
 #social a:hover svg { transform: scale(1, 1); opacity: 1; }
 
 #container { display: flex; flex-wrap: wrap; flex-direction: row; margin: 0; padding: 0; margin: 0 auto; max-width: 100%; }
-#container article, #container a { margin: .25% .5vw; }
+#container article, #container a { margin: .25vw .5%; }
 #container article:nth-child(-n+2), #container a:nth-child(-n+2) { margin-top: 0; }
 #container article:nth-child(1n+1), #container a:nth-child(1n+1) { margin-left: 0; }
 #container article:nth-child(2n+2), #container a:nth-child(2n+2) { margin-right: 0; }

@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5 {
 
     article, a {
         // margin: .25vw .5vw;
-        margin: .25% .5vw;
+        margin: .25vw .5%;
 
         &:nth-child(-n+2) { margin-top: 0; }
         &:nth-child(1n+1) { margin-left: 0;}
@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5 {
     }
 
     article:first-child, .grid a {
-        width: 49.5%;
+        width: 49.75%;
         height: 49.75vw;
         padding: 1vw;
 
