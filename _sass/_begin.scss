@@ -41,7 +41,22 @@ body {
     line-height: 1.5em;
 }
 
+small a {
+    svg {
+    width: 1.1em;
+    filter:  grayscale(1) contrast(.8);
+    -webkit-filter:  grayscale(1) contrast(.8);
+    opacity: .3;
+    // transition: all .1s ease-out;
+    }
+    &:hover svg {
+    filter:  grayscale(1) contrast(1);
+    -webkit-filter:  grayscale(1) contrast(1);
 
+    opacity: .7;
+    }
+
+}
 h1 { font-family: $font-main, san-serif; }
 h1, h2, h3, h4, h5 {
     // font-family: 'Dosis', sans-serif;
