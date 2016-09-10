@@ -2,13 +2,13 @@
 layout: page
 title: Install Animation
 project: Install Animation
-aside: Fun with SVGs and animation
+aside: Fun with SVGs and Stroke-Dashoffset
 img: /img/svg/splash-inst.svg
 class: install
 type: project
 ---
 
-I was asked to firm up the onboarding and installation screens with a couple of illustrations. After sketching for an hour or so, I realized this was the perfect opportunity to play with SVG animations (particularly the stroke-dashoffset technique Vox and Polygon popularized a few months back). It was only a half an afternoon of work to put a proof of concept on Codepen for engineering, but I was really happy with the end results.
+Here's a fun SVG experiment I did for Installation graphics.  It was only a half an afternoon of work to put a proof of concept on Codepen for engineering, but I was really happy with the end results.
 
 <em>Notes</em>: Best displayed in Chrome and Firefox.
 
