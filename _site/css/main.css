@@ -217,7 +217,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .center { text-align: center; }
 
-body { background: #F3F3F3; font-size: 18px; text-align: center; color: #585858; line-height: 1.5em; }
+body { background: #F3F3F3; font-size: 18px; text-align: center; color: #585858; line-height: 1.5em; display: flex; flex-direction: column; justify-content: center; align-items: center; }
 
 small a svg { width: 1.1em; filter: grayscale(1) contrast(0.8); -webkit-filter: grayscale(1) contrast(0.8); opacity: .3; }
 small a:hover svg { filter: grayscale(1) contrast(1); -webkit-filter: grayscale(1) contrast(1); opacity: .7; }
@@ -261,6 +261,11 @@ article:first-child img, .grid a img { width: 60%; }
 #emc-ui-nav { background: #FFF url("/img/multi-select.gif") center center no-repeat; background-size: 420px 420px; opacity: .8; transition: all .1s ease-in-out; }
 #emc-ui-nav:hover { opacity: 1; }
 
+footer { border-top: 2px solid #c5c5c5; width: 90%; padding: 1em; margin-top: 1em; display: flex; flex-direction: column; justify-content: space-around; align-items: center; font-size: 1em; }
+footer > div { width: 15em; display: flex; flex-direction: row; justify-content: space-around; }
+footer small { font-size: .65em; }
+footer a:hover svg rect { fill: #484848; }
+
 #install, #splash-inst, p { transition: all .1s ease-in-out; }
 
 #install { background: #2C95DD; overflow: hidden; transition: all .2s ease-in-out; }
@@ -270,19 +275,7 @@ article:first-child img, .grid a img { width: 60%; }
 
 #social { background: #FFF; }
 
-@keyframes radiate { 0% { stroke-dashoffset: 1px; }
-  100% { stroke-dashoffset: -10000px; } }
-.talk { color: #DA3B32; word-wrap: nowrap; }
-.talk svg { margin-bottom: -.1em; }
-
-@keyframes rad { 0% { color: red; }
-  15% { color: yellow; }
-  30% { color: lime; }
-  50% { color: cyan; }
-  65% { color: blue; }
-  80% { color: magenta; }
-  100% { color: red; } }
-@media screen and (max-width: 940px) { body { font-size: 14px; }
+@media screen and (max-width: 940px) { body { font-size: 14px; display: flex; flex-direction: column; justify-content: center; align-items: center; }
   #bio p { font-size: 1.7vmax; line-height: 3.5vmax; }
   span.me { height: 1.7vmax; width: 1.7vmax; }
   /* Safari 9.0+ (non-iOS) */ }
@@ -355,6 +348,8 @@ a.splash:hover img { transform: translateY(-0.2em); opacity: 1; }
 body.page { font-size: 18px; }
 
 article { align-items: center; }
+
+.post { width: 100%; }
 
 .post-content { display: flex; flex-direction: column; align-items: center; text-align: left; }
 .post-content > *, .post-content .contrain { max-width: 40rem; padding: .25rem 2.8rem; display: block; width: 100%; }
