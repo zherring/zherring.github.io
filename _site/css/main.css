@@ -275,6 +275,13 @@ footer a:hover svg rect { fill: #484848; }
 
 #social { background: #FFF; }
 
+@keyframes rad { 0% { color: red; }
+  15% { color: yellow; }
+  30% { color: lime; }
+  50% { color: cyan; }
+  65% { color: blue; }
+  80% { color: magenta; }
+  100% { color: red; } }
 @media screen and (max-width: 940px) { body { font-size: 14px; display: flex; flex-direction: column; justify-content: center; align-items: center; }
   #bio p { font-size: 1.7vmax; line-height: 3.5vmax; }
   span.me { height: 1.7vmax; width: 1.7vmax; }
