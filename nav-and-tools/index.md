@@ -96,7 +96,6 @@ Rounding out the approach were the utilities attached to each view, Multi-Select
 {: .block .wide } -->
 
 ## Results
-- *Fewer Clicks* - Simple hueristic analyis of navigation and common actions saw a 25-35% reduction in task complexity.
-- *Coherent IA* - The userflow maps we created before were rats nests. These were saner, and have already erased the difficult navigational decisions we've had to make.
-- *Better Tests* - We approached an outside UX Research org to operate separately to keep us honest through the developement. Separate UX Researchers confirmed our test results with vastly improved usability KPIs.
-- *Proliferation* - This work combined with higher inter-org outreach saw an increase from
+We’re still reaping the rewards of a thorough design process around our navigation and utility exploration. As we head into the design planning phase of V2, we’re finding very few navigational patterns that don’t fit neatly into our proven design patterns. We’ve partnered with a separate UX Researchers organization within EMC to verify our results in broader contexts. Their initial reviews of our work indicate they’re “light years ahead” of what was previously available.
+
+We’re not done yet. EMC-UI was adopted as DPAS's UX standard and being consumed by multiple software teams across the world. As we continue to test V1 of both projects, we’ll continue to refine these examples. 2016 looks to be another great year for solving difficult problems and making people’s lives better.
