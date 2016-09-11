@@ -352,6 +352,10 @@ a.splash:hover img { transform: translateY(-0.2em); opacity: 1; }
 .hackathon.splash aside, .hackathon .splash aside { color: #7b7b7b; }
 .hackathon.splash.shadow .splash img, .hackathon .splash.shadow .splash img { box-shadow: 0 4px 4px #e6e6e6; }
 
+.hackathon .gh-links { align-items: flex-start; }
+.hackathon .gh-links a { color: #339CE2; }
+.hackathon .gh-links a h5 { color: #339CE2; text-align: center; }
+
 body.page { font-size: 18px; }
 
 article { align-items: center; }

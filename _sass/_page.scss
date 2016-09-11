@@ -54,8 +54,9 @@ $pages: (
 
     .q, a { color: $value; }
     a:visited { color: $value; }
-
     h3::after { background: $value; }
+
+
 
     @if( lightness($value) > 50) {
 
@@ -90,6 +91,14 @@ $pages: (
     // background-image: linear-gradient(1deg, #FF5600 0%, rgba(255,109,0,0.00) 64%);
     //
 
+.hackathon .gh-links{
+    align-items: flex-start;
+a {
+    color: map-get($pages, install);
+    h5 { color: map-get($pages, install); text-align: center; }
+    // img { }
+    }
+}
 
 body.page { font-size: 18px; }
 article {
