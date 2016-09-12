@@ -45,7 +45,7 @@ Attendance was a concern. EMC had never thrown a hackathon before and attendance
 
 !["Zine-esque posters we spread throughout the office"](img/posters.jpg)
 
-The gorilla marketing paid off and we had over 60% of the site signed up for two days of hacking. This included departments other than engineering like QA and management; we had a significant variety of coding experienced, which is when the Bird-House Concept became really important.
+The guerilla marketing paid off and we had over 60% of the site signed up for two days of hacking. This included departments other than engineering like QA and management; we had a significant variety of coding experienced, which is when the Bird-House Concept became really important.
 
 Birdhouse?
 {: .q }
