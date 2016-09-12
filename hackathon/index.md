@@ -2,7 +2,7 @@
 layout: page
 title: Throwing EMC's First Hackathon
 project: Throwing EMC's First Hackathon
-aside: Promoting Scrappiness in a Tech-Giant
+aside: Experience design applied to training events
 img: /img/svg/emc-hackathon-sticker.svg
 class: hackathon
 type: project

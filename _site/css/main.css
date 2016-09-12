@@ -382,7 +382,7 @@ section > div { height: .2rem; background: #EAEAEA; width: auto; }
 .post-content .grid > div { display: flex; flex-direction: column; width: 25vw; justify-content: space-between; align-items: center; padding: 0 5vw; }
 .post-content .grid > div p { font-size: .85em; line-height: 1.5rem; }
 .post-content .grid > div img { max-width: 8rem; }
-.post-content div[class*="tile-"] { display: flex; flex-direction: row; justify-content: space-around; flex-wrap: wrap; }
+.post-content div[class*="tile-"] { display: flex; flex-direction: row; justify-content: space-around; flex-wrap: wrap; text-align: center; }
 .post-content div[class*="tile-"] > * { overflow: hidden; margin: 1em 0; }
 .post-content .tile-2 > * { width: 45%; }
 .post-content .tile-3 > * { width: 30%; }

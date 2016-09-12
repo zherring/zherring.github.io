@@ -8,7 +8,7 @@ class: install
 type: project
 ---
 
-Here's a fun SVG experiment I did for Installation graphics.  It was only a half an afternoon of work to put a proof of concept on Codepen for engineering, but I was really happy with the end results.
+Here's a fun SVG experiment I did for Installation flow at the end of one project.  It was only a half an afternoon of work to put together a proof of concept on Codepen for engineering, but I was happy with the end results.
 
 <em>Notes</em>: Best displayed in Chrome and Firefox.
 
