@@ -304,7 +304,7 @@ footer a:hover svg rect { fill: #484848; }
 .q { font-style: italic; font-weight: bold; }
 
 .back-arr { position: fixed; left: 1rem; top: 1rem; z-index: 100; }
-.back-arr svg { zoom: .8; padding: 1px; }
+.back-arr svg { zoom: .8; -moz-zoom: .8; padding: 1px; }
 
 svg, polyline#arrow, circle#circle { transition: all .1s ease-out; }
 
