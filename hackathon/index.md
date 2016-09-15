@@ -6,6 +6,8 @@ aside: Experience design applied to training events
 img: /img/svg/emc-hackathon-sticker.svg
 class: hackathon
 type: project
+next: nav-and-tools
+prev: first
 ---
 
 So why do you have such a dumb, goofy grin?

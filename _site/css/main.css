@@ -386,3 +386,11 @@ section > div { height: .2rem; background: #EAEAEA; width: auto; }
 .post-content div[class*="tile-"] > * { overflow: hidden; margin: 1em 0; }
 .post-content .tile-2 > * { width: 45%; }
 .post-content .tile-3 > * { width: 30%; }
+
+.project-footer { width: 90%; margin-bottom: -1em; }
+.project-footer > div { width: 33%; display: block; font-size: 1em; font-family: "roboto slab"; text-decoration: none; text-align: center; }
+.project-footer > div:first-child { text-align: left; }
+.project-footer > div:last-child { text-align: right; }
+.project-footer a:hover { text-decoration: none; }
+.project-footer a:hover span { text-decoration: underline; }
+.project-footer span { font-size: .9em; }

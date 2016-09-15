@@ -204,3 +204,23 @@ section {
     .tile-3 > * { width: 30%; }
 
     }
+
+.project-footer {
+    width: 90%;
+    margin-bottom: -1em;
+    > div {
+        width: 33%;
+        display: block;
+        font-size: 1em;
+        font-family: "roboto slab";
+        text-decoration: none;
+        text-align: center;
+        &:first-child { text-align: left; }
+        &:last-child { text-align: right;  }
+        }
+    a:hover { text-decoration: none;
+        & span { text-decoration: underline;
+            }
+    }
+    span { font-size: .9em; }
+    }

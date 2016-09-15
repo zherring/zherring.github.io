@@ -6,6 +6,8 @@ aside: Elastic patterns for a plethora of edge cases
 img: /nav-and-tools/img/multi-select.gif
 class: nav-tool shadow
 type: project
+next: install
+prev: hackathon
 ---
 
 ## The Problem
