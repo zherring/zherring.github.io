@@ -7,7 +7,7 @@ img: /img/svg/emc-hackathon-sticker.svg
 class: hackathon
 type: project
 prev: nav-and-tools
-next: first
+next: last
 ---
 
 So why do you have such a dumb, goofy grin?

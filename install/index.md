@@ -6,7 +6,7 @@ aside: Fun with SVGs and Stroke-Dashoffset
 img: /img/svg/splash-inst.svg
 class: install
 type: project
-prev: last
+prev: first
 next: nav-and-tools
 ---
 
