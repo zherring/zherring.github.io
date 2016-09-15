@@ -66,7 +66,7 @@ After 6 months, we delivered the last of our framework changes to EMC-UI.
 
 
 ### Omni-Nav
-We settled on an Omni-Navigational window, build out with each mini-application inside the main pain, as well as system Utilities.
+We settled on an Omni-Navigational window build out, with *each* mini-application grouped inside the main pane with system utilities nestled to the side to provide ease of access.
 
 !["Omni-Nav"](img/omni-menu.gif)
 {: .center }

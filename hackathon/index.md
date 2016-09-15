@@ -12,7 +12,7 @@ next: last
 
 So why do you have such a dumb, goofy grin?
 {: .q }
-Oh, we threw a hackathon and it was stellar. Seriously, one of the most rewarding projects in my career.
+Oh, we threw an in-house hackathon. Participation was massive, and we destroyed work silos that had been dogging major projects for the last 12 months. The results were such that the directors and VPs have asked us to 'take it on the road,' and replicate the hackathon in other EMC offices across the country.  Seriously, one of the most rewarding projects in my career..
 
 But a hackathon? That’s a little played, isn’t it?
 {: .q }
@@ -104,7 +104,7 @@ The organizers were all taken aback by how energized and excited the entire offi
 
 And Management thought it was worthwhile?
 {: .q }
-Absolutely. 50 people had new working relationships with coworkers completely outside of their organization. These steps started undoing the work silos that hurt our efforts so much the twelve months previously. The Directors and VPs took notice too; they asked us to travel to other EMC offices across the country and repeat the hackathon program born in Louisville CO.
+Absolutely. 50 people had new working relationships with coworkers completely outside of their organization. These steps started undoing the work silos that hurt our efforts so much the twelve months previously. It was very gratifying that the directors and VPs took notice too, asking us to travel to other EMC offices across the country and repeat the hackathon program our team organized.
 
 Sounds like you guys had a blast. Got any pictures?
 {: .q }
