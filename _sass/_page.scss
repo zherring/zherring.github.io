@@ -53,7 +53,7 @@ $pages: (
 
     svg:hover #back-ctr polyline#arrow { stroke: #F3F3F3; }
 
-    .q, a { color: $value; }
+    .q, a, a:visted, a:hover { color: adjust-hue($value, -14); }
     a:visited { color: $value; }
     h3::after { background: $value; }
 

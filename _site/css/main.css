@@ -320,7 +320,7 @@ svg:hover circle { opacity: 1; }
 a.splash:hover img { transform: translateY(-0.2em); opacity: 1; }
 
 .nav-tool svg:hover #back-ctr polyline#arrow { stroke: #F3F3F3; }
-.nav-tool .q, .nav-tool a { color: #FFC725; }
+.nav-tool .q, .nav-tool a, .nav-tool a:visted, .nav-tool a:hover { color: #ff9425; }
 .nav-tool a:visited { color: #FFC725; }
 .nav-tool h3::after { background: #FFC725; }
 .nav-tool .back-arr circle#circle, .nav-tool .back-arr polyline#arrow { stroke: #ff9425; }
@@ -331,7 +331,7 @@ a.splash:hover img { transform: translateY(-0.2em); opacity: 1; }
 .nav-tool.splash.shadow .splash img, .nav-tool .splash.shadow .splash img { box-shadow: 0 4px 4px #e7ac00; }
 
 .install svg:hover #back-ctr polyline#arrow { stroke: #F3F3F3; }
-.install .q, .install a { color: #339CE2; }
+.install .q, .install a, .install a:visted, .install a:hover { color: #33c5e2; }
 .install a:visited { color: #339CE2; }
 .install h3::after { background: #339CE2; }
 .install .back-arr circle#circle, .install .back-arr polyline#arrow { stroke: #33c5e2; }
@@ -342,7 +342,7 @@ a.splash:hover img { transform: translateY(-0.2em); opacity: 1; }
 .install.splash.shadow .splash img, .install .splash.shadow .splash img { box-shadow: 0 4px 4px #1b7cbd; }
 
 .hackathon svg:hover #back-ctr polyline#arrow { stroke: #F3F3F3; }
-.hackathon .q, .hackathon a { color: #484848; }
+.hackathon .q, .hackathon a, .hackathon a:visted, .hackathon a:hover { color: #484848; }
 .hackathon a:visited { color: #484848; }
 .hackathon h3::after { background: #484848; }
 .hackathon #back-ctr #circle, .hackathon #back-ctr #arrow { stroke: #7b7b7b; }
