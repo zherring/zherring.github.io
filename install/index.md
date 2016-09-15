@@ -6,8 +6,8 @@ aside: Fun with SVGs and Stroke-Dashoffset
 img: /img/svg/splash-inst.svg
 class: install
 type: project
-next: last
-prev: nav-and-tools
+prev: last
+next: nav-and-tools
 ---
 
 Here's a fun SVG experiment I did for Installation flow at the end of one project.  It was only a half an afternoon of work to put together a proof of concept on Codepen for engineering, but I was happy with the end results.
