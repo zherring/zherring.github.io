@@ -44,7 +44,7 @@
 
 
 
-<!-- 
+
 {% for entry in site.pages %}
     {% if entry.title == page.title %}
         Match!
@@ -67,4 +67,79 @@
         <em>prev is {{ prev }}</em>
     {% endif %}
     <br />
-{% endfor %} -->
+{% endfor %}
+<!--
+
+
+
+{% assign sorted_pages2 = site.posts %}
+
+{% assign sorted_pages = "" | split: ""  %}
+{% for item in sorted_pages2 %}
+    {% if item.type == project" %}    
+        {% assign sorted_pages = sorted_pages | push: item %}
+    {% endif %}
+{% endfor %}
+
+{% for item in sorted_pages %}
+    {% if item.url == page.url %}
+        {% assign this_i = forloop.index0 %}
+        {% assign num_of_pages = forloop.length %}
+        {% assign last_i = forloop.length | minus: 1 %}
+        {% assign next_i = forloop.index0 | plus: 1 %}
+        {% assign prev_i = forloop.index0 | minus: 1 %}
+    {% endif %}
+{% endfor %}
+
+{% if num_of_pages > next_i %}
+    <a href="{{ sorted_pages[next_i].url }}"> Previous </a>
+{% endif %}
+
+{% if prev_i < 0 %}
+    <a href="{{ sorted_pages[last_i].url }}"> Next</a>
+{% endif %} -->
+
+
+
+<!--
+{% if page.layout != 'post' %}
+{% assign sorted_pages2 = site.pages | sort: 'order' %}
+{% else %}
+{% assign sorted_pages2 = site.posts reversed %}
+{% endif %}
+
+{% assign sorted_pages = "" | split: ""  %}
+{% for item in sorted_pages2 %}
+    {% if item.url != "/404.html" %}    
+        {% assign sorted_pages = sorted_pages | push: item %}
+    {% endif %}
+{% endfor %}
+
+{% for item in sorted_pages %}
+    {% if item.url == page.url %}
+        {% assign this_i = forloop.index0 %}
+        {% assign num_of_pages = forloop.length %}
+        {% assign last_i = forloop.length | minus: 1 %}
+        {% assign next_i = forloop.index0 | plus: 1 %}
+        {% assign prev_i = forloop.index0 | minus: 1 %}
+    {% endif %}
+{% endfor %}
+
+ -->
+
+
+THIS ENDED UP working
+
+
+    {% if num_of_pages > next_i %}
+        <a href="{{ sorted_pages[next_i].url }}"> Next </a>
+    {% else %}
+        <!-- Sorted_0: {{ sorted_pages[0].url }}<br /> -->
+    {% endif %}';
+
+    {% if prev_i < 0 %}
+        <!-- Sorted_Last{{ sorted_pages[last_i].url }} -->
+    {% else %}
+        <a href="{{ sorted_pages[prev_i].url }}">Previous</a>
+    {% endif %}';
+   }
