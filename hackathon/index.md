@@ -13,7 +13,7 @@ next: last
 
 So why do you have such a dumb, goofy grin?
 {: .q }
-Oh, we threw an in-house hackathon. Participation was massive, and we destroyed work silos that had been dogging major projects for the last 12 months. The results were such that the directors and VPs have asked us to 'take it on the road,' and replicate the hackathon in other EMC offices across the country.  Seriously, one of the most rewarding projects in my career..
+Oh, we threw an in-house hackathon; the first at our site. Participation was massive, and we destroyed work silos that had been dogging major projects for the last 12 months. The results were such that the directors and VPs have asked us to 'take it on the road,' and replicate the hackathon in other EMC offices across the country.  Seriously, one of the most rewarding projects in my career..
 
 But a hackathon? That’s a little played, isn’t it?
 {: .q }
