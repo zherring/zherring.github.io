@@ -3,6 +3,7 @@ layout: page
 title: Install Animation
 project: Install Animation
 aside: Fun with SVGs and Stroke-Dashoffset
+role: Designer & Prototyper
 img: /img/svg/splash-inst.svg
 class: install
 type: project

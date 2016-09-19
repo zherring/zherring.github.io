@@ -3,6 +3,7 @@ layout: page
 title: Navigation & Tools
 project: Navigation & Tools
 aside: Elastic patterns for a plethora of edge cases
+role: Lead Design Strategist & Interaction Designer
 img: /nav-and-tools/img/multi-select.gif
 class: nav-tool shadow
 type: project

@@ -2,7 +2,8 @@
 layout: page
 title: Throwing EMC's First Hackathon
 project: Throwing EMC's First Hackathon
-aside: Experience design applied to training events
+aside: Applying experience design to training events
+role: Organizer, Designer, and Team Coach
 img: /img/svg/emc-hackathon-sticker.svg
 class: hackathon
 type: project
