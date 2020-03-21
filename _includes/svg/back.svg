@@ -1,9 +1,0 @@
-<svg width="43px" height="43px" viewBox="0 0 43 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <g id="Tile-View" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="back-ctr">
-                <circle id="circle" stroke-width="1.39999998" opacity="0.5" cx="20.5" cy="20.5" r="20.5"></circle>
-                <polyline id="arrow" stroke-width="3.49999994" transform="translate(20.195690, 19.5) rotate(90.000000) translate(-20.195690, -20.051984) " points="25.3913792 10 15 19.7125886 25.3913792 30.1039677"></polyline>
-                <!-- <polyline id="arrow" stroke-width="3.49999994" points="24.8224137 10.6034483 14.4310345 20.3160369 24.8224137 30.707416"></polyline> -->
-        </g>
-    </g>
-</svg>
