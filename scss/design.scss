@@ -1,0 +1,51 @@
+@import 'var.scss';
+
+html {
+  color: #fff;
+  background: #000;
+  font-family: 'Merriweather', serif;
+  color: $body-font-col;
+  font-weight: 300;
+}
+
+a, a:visited, a:active, a:hover {
+  text-decoration: underline;
+  color: $body-font-col;
+  }
+
+@font-face {
+  font-family: "roba-bold";
+  src: url("/fonts/roba/RobaV0.2Low-Bold.eot");
+  src: url("/fonts/roba/RobaV0.2Low-Bold.woff") format("woff"),
+  url("/fonts/roba/RobaV0.2Low-Bold.otf") format("opentype"),
+  url("/fonts/roba/RobaV0.2Low-Bold.svg") format("svg");
+}
+
+h1, h2 { font-family: "roba-bold", san-serif; }
+h1, h2,h3 { color: $header-font-color; }
+
+
+h1 {
+  font-size: 5.6em;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+h2 { font-size: 3rem; }
+h3 {
+  font-size: 1.5rem;
+  margin: .5rem 0;
+}
+
+
+aside#a-header {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+#splash {
+  height: 60vh;
+}
