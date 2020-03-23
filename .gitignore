@@ -1,4 +1,5 @@
 
-*.codekit
-*.codekit3
+.codekit
+.codekit3
 .DS_Store
+config.codekit3
