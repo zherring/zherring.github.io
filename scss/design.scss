@@ -21,7 +21,7 @@ a, a:visited, a:active, a:hover {
   url("/fonts/roba/RobaV0.2Low-Bold.svg") format("svg");
 }
 
-h1, h2 { font-family: "roba-bold", san-serif; }
+h1, h2 { font-family: "roba-bold", roboto, helvetica, arial, san-serif; }
 h1, h2,h3 { color: $header-font-color; }
 
 
@@ -30,22 +30,80 @@ h1 {
   text-transform: capitalize;
   text-align: center;
   font-weight: 100;
-  margin-bottom: 1rem;
+  // margin-bottom: 1rem;
+  line-height: 1em;
 }
 
-h2 { font-size: 3rem; }
+
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  margin: .5rem 0 .25rem;
+}
+
+h4 { font-size: 1.1rem; color: #fff; margin: .5rem 0; }
+
+p { padding: .1rem 0;}
 h3 {
   font-size: 1.5rem;
-  margin: .5rem 0;
+  // margin: .5rem 0;
 }
 
+.col {
+  max-width: 30rem;
+  }
 
 aside#a-header {
+  margin-top: -2.75rem;
   text-align: center;
   font-size: 1.2rem;
   font-weight: lighter;
 }
 
 #splash {
-  height: 60vh;
+  height: 60vmin;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1::after {
+    content: "*";
+    font-weight: bold;
+  }
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  // margin: 2rem;
+  justify-content: space-evenly;
+}
+
+#talks-essays {
+  a {
+    overflow: hidden;
+    display: block;
+    padding-left: 1.5rem;
+    margin-bottom: 1.75rem;
+
+    h3{ margin: 0 0 .5rem; }
+    p { margin: 0;}
+  }
+
+
+  a,a:visited, {
+    text-decoration: none;
+    border-left: 1.5px solid $dark-gray;
+    // margin-bottom: 1em;
+  }
+
+  a:hover, a:active {
+    text-decoration: none;
+    border-left: 1.5px solid $activate-red;
+    // margin-bottom: 1em;
+  }
 }

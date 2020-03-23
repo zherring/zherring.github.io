@@ -2,7 +2,8 @@
 
 $header-font-color: #fff;
 $body-font-col: #CBCBCB;
-
+$dark-gray: #575757;
+$activate-red: #FF4D00;
 
 /**
  * Breakpoints
@@ -47,35 +48,35 @@ $small: 400px;
 	}
 }
 
-.query {
-	position: fixed;
-	leftt: 0;
-	top: 0;
-	padding-top: 10px;
-	z-index: 10000;
-	font-size: 20px;
-	&::before {
-		content: "MAX";
-		background-color: salmon;
-		padding: 10px 20px;
-		@include xlarge {
-			content: "XLARGE";
-			background-color: violet;
-		}
-		@include large {
-			content: "LARGE";
-			background-color: aquamarine;
-		}
-		@include medium {
-			content: "MEDIUM";
-			background-color: yellow;
-		}
-		@include small {
-			content: "SMALL";
-			background-color: hotpink;
-		}
-	}
-}
+// .query {
+// 	position: fixed;
+// 	leftt: 0;
+// 	top: 0;
+// 	padding-top: 10px;
+// 	z-index: 10000;
+// 	font-size: 20px;
+// 	&::before {
+// 		content: "MAX";
+// 		background-color: salmon;
+// 		padding: 10px 20px;
+// 		@include xlarge {
+// 			content: "XLARGE";
+// 			background-color: violet;
+// 		}
+// 		@include large {
+// 			content: "LARGE";
+// 			background-color: aquamarine;
+// 		}
+// 		@include medium {
+// 			content: "MEDIUM";
+// 			background-color: yellow;
+// 		}
+// 		@include small {
+// 			content: "SMALL";
+// 			background-color: hotpink;
+// 		}
+// 	}
+// }
 
 .grid {
 	display: flex;
