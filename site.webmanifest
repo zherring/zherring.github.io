@@ -1,12 +1,12 @@
 {
-  "short_name": "",
-  "name": "",
+  "short_name": "Zach Herring is a Designer*",
+  "name": "*Zach Herring is a Designer of companies that raise, organizations that execute, and products that ship."",
   "icons": [{
     "src": "icon.png",
     "type": "image/png",
     "sizes": "192x192"
   }],
   "start_url": "/?utm_source=homescreen",
-  "background_color": "#fafafa",
+  "background_color": "#000",
   "theme_color": "#fafafa"
 }
