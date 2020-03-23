@@ -249,44 +249,76 @@ html {
   color: #CBCBCB;
   font-weight: 300; }
 
-a, a:visited, a:active, a:hover {
+a, a:visited, a:active {
   text-decoration: underline;
   color: #CBCBCB; }
+
+a:hover {
+  color: #FF4D00; }
 
 @font-face {
   font-family: "roba-bold";
   src: url("/fonts/roba/RobaV0.2Low-Bold.eot");
   src: url("/fonts/roba/RobaV0.2Low-Bold.woff") format("woff"), url("/fonts/roba/RobaV0.2Low-Bold.otf") format("opentype"), url("/fonts/roba/RobaV0.2Low-Bold.svg") format("svg"); }
 
-h1, h2 {
+h1, h2, .big {
   font-family: "roba-bold", roboto, helvetica, arial, san-serif; }
 
 h1, h2, h3 {
   color: #fff; }
 
-h1 {
+h1, .big {
   font-size: 5.6em;
   text-transform: capitalize;
   text-align: center;
   font-weight: 100;
   line-height: 1em; }
 
+.big {
+  margin: 0;
+  text-align: left; }
+
 h2 {
   font-size: 3rem; }
 
 h3 {
-  margin: .5rem 0 .25rem; }
+  margin: .5rem 0 .25rem;
+  font-size: 1.5rem; }
 
 h4 {
   font-size: 1.1rem;
   color: #fff;
   margin: .5rem 0; }
 
+aside {
+  font-style: italic; }
+
 p {
   padding: .1rem 0; }
 
-h3 {
-  font-size: 1.5rem; }
+ul li {
+  padding-left: 1.25rem;
+  margin-bottom: 1rem; }
+
+.grid-interior {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row; }
+  .grid-interior > * {
+    width: 22%;
+    display: flex;
+    align-items: center;
+    margin: 1.25rem; }
+    .grid-interior > * span:first-child {
+      font-size: 1.5rem;
+      padding-bottom: .5rem;
+      margin-right: .6rem; }
+    .grid-interior > * span:nth-child(2) {
+      font-size: .75rem;
+      line-height: 1rem; }
+
+#current-work > div {
+  margin-bottom: 2.25rem; }
 
 .col {
   max-width: 30rem; }
@@ -312,20 +344,42 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly; }
 
-#talks-essays a {
+#current-work .dollar:before {
+  content: "$";
+  font-face: roba-bold, roboto, helvetica, arial, san-serif;
+  font-weight: bold;
+  font-size: 2rem;
+  vertical-align: super; }
+
+#current-work aside {
+  font-size: .8rem; }
+
+#talks-essays > a {
   overflow: hidden;
   display: block;
   padding-left: 1.5rem;
   margin-bottom: 1.75rem; }
-  #talks-essays a h3 {
-    margin: 0 0 .5rem; }
-  #talks-essays a p {
+  #talks-essays > a h3 {
+    margin: 0 0 .5rem;
+    line-height: 2rem; }
+  #talks-essays > a h4 {
+    text-align: center; }
+  #talks-essays > a p {
     margin: 0; }
 
-#talks-essays a, #talks-essays a:visited {
+#talks-essays > a, #talks-essays a:visited {
   text-decoration: none;
   border-left: 1.5px solid #575757; }
 
-#talks-essays a:hover, #talks-essays a:active {
+#talks-essays > a:hover, #talks-essays a:active {
   text-decoration: none;
-  border-left: 1.5px solid #FF4D00; }
+  border-left: 1.5px solid #FF4D00;
+  color: #575757; }
+
+footer {
+  background: white;
+  padding: 2rem;
+  width: 100%;
+  color: black; }
+  footer h2 {
+    color: black; }
