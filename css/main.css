@@ -277,13 +277,19 @@ h1, .big {
 .big {
   margin: 0;
   text-align: left; }
+  @media (max-width: 672px) {
+    .big {
+      text-align: center; } }
 
 h2 {
   font-size: 3rem; }
+  @media (max-width: 672px) {
+    h2 {
+      line-height: 2.5rem; } }
 
 h3 {
   margin: .5rem 0 .25rem;
-  font-size: 1.5rem; }
+  font-size: 1.25rem; }
 
 h4 {
   font-size: 1.1rem;
@@ -296,19 +302,31 @@ aside {
 p {
   padding: .1rem 0; }
 
-ul li {
-  padding-left: 1.25rem;
-  margin-bottom: 1rem; }
+ul {
+  text-align: left; }
+  ul li {
+    padding-left: 1.25rem;
+    margin-bottom: 1rem; }
 
 .grid-interior {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row; }
+  @media (max-width: 672px) {
+    .grid-interior {
+      justify-content: space-around; } }
   .grid-interior > * {
     width: 22%;
     display: flex;
     align-items: center;
     margin: 1.25rem; }
+    .grid-interior > * > img {
+      width: 100%; }
+    @media (max-width: 672px) {
+      .grid-interior > * {
+        max-width: 40vw;
+        flex-direction: column;
+        text-align: center; } }
     .grid-interior > * span:first-child {
       font-size: 1.5rem;
       padding-bottom: .5rem;
@@ -322,12 +340,18 @@ ul li {
 
 .col {
   max-width: 30rem; }
+  @media (max-width: 672px) {
+    .col {
+      max-width: 20rem; } }
 
 aside#a-header {
   margin-top: -2.75rem;
   text-align: center;
   font-size: 1.2rem;
   font-weight: lighter; }
+  @media (max-width: 672px) {
+    aside#a-header {
+      margin: 1,5rem 0; } }
 
 #splash {
   height: 60vmin;
@@ -335,6 +359,9 @@ aside#a-header {
   display: flex;
   flex-direction: column;
   justify-content: center; }
+  @media (max-width: 672px) {
+    #splash {
+      height: 65vmax; } }
   #splash h1::after {
     content: "*";
     font-weight: bold; }
@@ -343,6 +370,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly; }
+  @media (max-width: 672px) {
+    body {
+      text-align: center; } }
 
 #current-work .dollar:before {
   content: "$";
