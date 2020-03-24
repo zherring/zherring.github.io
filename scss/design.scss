@@ -182,7 +182,7 @@ body {
     // margin-bottom: 1em;
   }
 
-  > a:hover, a:active {
+  > a:hover, > a:active {
     text-decoration: none;
     border-left: 1.5px solid $activate-red;
     color: $dark-gray;

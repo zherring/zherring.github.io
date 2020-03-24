@@ -401,7 +401,7 @@ body {
   text-decoration: none;
   border-left: 1.5px solid #575757; }
 
-#talks-essays > a:hover, #talks-essays a:active {
+#talks-essays > a:hover, #talks-essays > a:active {
   text-decoration: none;
   border-left: 1.5px solid #FF4D00;
   color: #575757; }
