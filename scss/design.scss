@@ -107,6 +107,9 @@ ul {
 #current-work > div { margin-bottom: 2.25rem; }
 .wide {
   width: 100%;
+  @media (max-width: $small) {
+    text-align: center;
+  }
 
   &.stripe {
   // plumbing
@@ -133,6 +136,8 @@ ul {
   position: absolute;
   display: block;
   border-bottom: 1px solid #efefef;
+  left: 25%l
+
 }
 
 .col {
@@ -150,13 +155,21 @@ ul {
     font-size: .8rem;
     line-height: 1.4rem;
 
+    @media (max-width: $medium) {
+      margin: .5rem;
+    }
+
     h4 { font-size: .9rem; }
     li { margin-bottom: .4rem;}
     @media (max-width: $xlarge) {
       margin-left: 1.5rem;
       flex: 1 50%;
       max-width: 40%;
-
+      }
+    @media (max-width: $medium) {
+      margin-left: 1.5rem;
+      flex: 1 50%;
+      max-width: 80%;
     }
 
     aside { font-size: .8rem; font-style: normal;}
@@ -306,10 +319,17 @@ nav {
 
 #contact-container {
   height: 70vh;
+  @media (max-width: $medium) {
+    height: inherit;
+    }
 }
 
 #elsewhere {
   column-count: 2;
-  li { margin-left: 1rem; }
+  li { margin-left: 1rem;
   // li:nth-child(even) { margin-left: 5rem;}
+  @media (max-width: $medium) {
+    margin-left: inherit;
+    }
+  }
 }
