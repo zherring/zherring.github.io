@@ -39,7 +39,7 @@ h1, .big {
 .big {
   margin: 0;
   text-align: left;
-  @media (max-width: $medium) {
+  @media (max-width: $large) {
     text-align: center;
   }
 }
@@ -73,7 +73,7 @@ ul {
   flex-wrap: wrap;
   flex-direction: row;
 
-  @media (max-width: $medium) {
+  @media (max-width: $large) {
     justify-content: space-around;
     }
 
@@ -85,9 +85,9 @@ ul {
 
     > img { width: 100%; }
 
-    @media (max-width: $medium) {
+    @media (max-width: $large) {
       max-width: 40vw;
-      flex-direction: column;
+      flex-direction: row;
       text-align: center;
       }
 
@@ -105,12 +105,98 @@ ul {
 }
 
 #current-work > div { margin-bottom: 2.25rem; }
+.wide {
+  width: 100%;
+  @media (max-width: $small) {
+    text-align: center;
+  }
+
+  &.stripe {
+  // plumbing
+  display: flex;
+  align-items: center;
+  &::after {
+    content: '';
+    flex: 1;
+    padding: 1px;
+    margin-top: .4ch; // feels more natural to center on non-ascenders
+    margin-left: 1ch;
+    background: currentColor;
+    }
+    // porcelain
+    &::after {
+      opacity: .3; // allow liner to natually blend with element/parent bg
+      }
+    }
+  padding: .5rem 1.5rem;
+
+}
+.break::after {
+  content: '';
+  position: absolute;
+  display: block;
+  border-bottom: 1px solid #efefef;
+  left: 25%l
+
+}
 
 .col {
   max-width: 30rem;
 
   @media (max-width: $medium) {
     max-width: 20rem;
+    }
+
+  &-small {
+    flex: 1 0 25%;
+    margin: 1.5rem 1.5rem;
+    max-width: 25%;
+    // min-width: 25%;
+    font-size: .8rem;
+    line-height: 1.4rem;
+
+    @media (max-width: $medium) {
+      margin: .5rem;
+    }
+
+    h4 { font-size: .9rem; }
+    li { margin-bottom: .4rem;}
+    @media (max-width: $xlarge) {
+      margin-left: 1.5rem;
+      flex: 1 50%;
+      max-width: 40%;
+      }
+    @media (max-width: $medium) {
+      margin-left: 1.5rem;
+      flex: 1 50%;
+      max-width: 80%;
+    }
+
+    aside { font-size: .8rem; font-style: normal;}
+
+
+    &:nth-child(3n+0) {
+       // background: green;
+       margin-left: 7vw;
+       @media (max-width: $xlarge) {
+         margin-left: 1.5rem;
+         // background: blue;
+       }
+      }
+    &:nth-child(3n+2) {
+       // background: red;
+       margin-right: 7vw;
+
+       @media (max-width: $xlarge) {
+         margin-right: 1.5rem;
+         // background: blue;
+         }
+       }
+       &.last{
+         margin-right: 0;
+         margin-left: 0;
+         margin-top: -.25rem;
+        }
     }
   }
 
@@ -147,7 +233,7 @@ body {
   flex-wrap: wrap;
   // margin: 2rem;
   justify-content: space-evenly;
-  @media (max-width: $medium) {
+  @media (max-width: $large) {
     text-align: center;
     }
 }
@@ -161,6 +247,7 @@ body {
       vertical-align: super;
    }
   aside { font-size: .8rem; }
+
 }
 
 #talks-essays {
@@ -191,13 +278,52 @@ body {
 }
 
 footer {
-  background: white;
   padding: 2rem;
   width: 100%;
-  color: black;
 
   h2 {
-    color: black;
 
   }
 }
+
+nav {
+  width: 18.15rem;
+  position: fixed;
+  padding: 1rem .25rem .65rem 1.5rem;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,.85);
+  border-radius: 0 0 6px 0;
+
+  @media (max-width: $large) {
+    text-align: left;
+    }
+
+  @media (max-width: $medium) {
+    display: none;
+    }
+
+  a, a:visited, a:hover, a:active  { font-size: .9rem; text-decoration: none; }
+
+  #logo {
+    font-family: "roba-bold", roboto, helvetica, arial, san-serif;
+    font-weight: normal;
+    font-size: 1.7rem;
+    width: 100%;
+    display: block;
+    color: white;
+    margin-bottom: .25rem;
+    text-transform: capitalize;
+  }
+}
+
+#contact-container {
+  height: 70vh;
+  @media (max-width: $medium) {
+    height: inherit;
+    }
+}
+
+#elsewhere {
+  column-count: 2;
+  }
