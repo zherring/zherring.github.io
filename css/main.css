@@ -511,8 +511,3 @@ nav {
 
 #elsewhere {
   column-count: 2; }
-  #elsewhere li {
-    margin-left: 1rem; }
-    @media (max-width: 672px) {
-      #elsewhere li {
-        margin-left: inherit; } }

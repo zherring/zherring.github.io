@@ -326,10 +326,4 @@ nav {
 
 #elsewhere {
   column-count: 2;
-  li { margin-left: 1rem;
-  // li:nth-child(even) { margin-left: 5rem;}
-  @media (max-width: $medium) {
-    margin-left: inherit;
-    }
   }
-}
