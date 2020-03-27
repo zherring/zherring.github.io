@@ -395,15 +395,15 @@ ul {
     .col-small aside {
       font-size: .8rem;
       font-style: normal; }
-    .col-small:nth-child(3n+0) {
+    .col-small:nth-child(3n-1) {
       margin-left: 7vw; }
       @media (max-width: 1312px) {
-        .col-small:nth-child(3n+0) {
+        .col-small:nth-child(3n-1) {
           margin-left: 1.5rem; } }
-    .col-small:nth-child(3n+2) {
+    .col-small:nth-child(3n+4) {
       margin-right: 7vw; }
       @media (max-width: 1312px) {
-        .col-small:nth-child(3n+2) {
+        .col-small:nth-child(3n+4) {
           margin-right: 1.5rem; } }
     .col-small.last {
       margin-right: 0;

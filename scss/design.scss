@@ -175,7 +175,7 @@ ul {
     aside { font-size: .8rem; font-style: normal;}
 
 
-    &:nth-child(3n+0) {
+    &:nth-child(3n-1) {
        // background: green;
        margin-left: 7vw;
        @media (max-width: $xlarge) {
@@ -183,7 +183,7 @@ ul {
          // background: blue;
        }
       }
-    &:nth-child(3n+2) {
+    &:nth-child(3n+4) {
        // background: red;
        margin-right: 7vw;
 
