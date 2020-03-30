@@ -317,6 +317,22 @@ nav {
   }
 }
 
+#testimonials {
+  .quote {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+  }
+
+  aside {
+    font-size: .9rem;
+    margin-top: -.8rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+}
+
 #contact-container {
   height: 70vh;
   @media (max-width: $medium) {
