@@ -1,6 +1,9 @@
 @import 'var.scss';
 @import 'responsive.scss';
 
+* {
+  box-sizing: border-box;
+  }
 html {
   color: #fff;
   background: #000;
@@ -105,32 +108,13 @@ ul {
 }
 
 #current-work > div { margin-bottom: 2.25rem; }
+
 .wide {
   width: 100%;
-  @media (max-width: $small) {
-    text-align: center;
+
+  @media (max-width: $medium)
+    { display: none;}
   }
-
-  &.stripe {
-  // plumbing
-  display: flex;
-  align-items: center;
-  &::after {
-    content: '';
-    flex: 1;
-    padding: 1px;
-    margin-top: .4ch; // feels more natural to center on non-ascenders
-    margin-left: 1ch;
-    background: currentColor;
-    }
-    // porcelain
-    &::after {
-      opacity: .3; // allow liner to natually blend with element/parent bg
-      }
-    }
-  padding: .5rem 1.5rem;
-
-}
 .break::after {
   content: '';
   position: absolute;
@@ -144,7 +128,8 @@ ul {
   max-width: 30rem;
 
   @media (max-width: $medium) {
-    max-width: 20rem;
+    max-width: 30rem;
+    padding: 1.5rem;
     }
 
   &-small {
@@ -214,14 +199,24 @@ aside#a-header {
 #splash {
   height: 60vmin;
   width: 100%;
+  // padding: 5vmin;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   @media (max-width: $medium) {
     height: 65vmax;
+    font-size: 4vmin;
     }
 
+    aside {
+      @media (max-width: $medium) {
+        font-size: 4vmin;
+        // margin-top: .05rem;
+        padding-top: 1rem;
+      }
+    }
+  h1 { padding: 1rem; }
   h1::after {
     content: "*";
     font-weight: bold;
@@ -287,7 +282,7 @@ footer {
 }
 
 nav {
-  width: 18.15rem;
+  width: 18.1 5rem;
   position: fixed;
   padding: 1rem .25rem .65rem 1.5rem;
   top: 0;
@@ -318,6 +313,12 @@ nav {
 }
 
 #testimonials {
+  margin-bottom: 5rem;
+  padding: 0;
+
+  @media (max-width: $medium) {
+    margin-bottom: inherit;
+  }
   .quote {
     font-size: 1.1rem;
     font-weight: lighter;
@@ -333,12 +334,31 @@ nav {
   }
 }
 
-#contact-container {
-  height: 70vh;
-  @media (max-width: $medium) {
+.contact {
+
+  &#interior {
+  margin-top: 5rem;
+  @media (max-width: $large) {
+    display: none;
+    }
+  }
+
+  &#exterior {
+    display: none;
+    @media(max-width: $large){
+      display: block;
+    }
+
+  }
+  // height: 70vh;
+
+  @media (max-width: $large) {
     height: inherit;
     }
+
+
 }
+
 
 #elsewhere {
   column-count: 2;
