@@ -241,7 +241,6 @@ textarea {
     @media (max-width: 400px) {
       .grid-item {
         background-color: hotpink; } }
-
 * {
   box-sizing: border-box; }
 
@@ -283,13 +282,11 @@ h1, .big {
   @media (max-width: 1056px) {
     .big {
       text-align: center; } }
-
 h2 {
   font-size: 3rem; }
   @media (max-width: 672px) {
     h2 {
       line-height: 2.5rem; } }
-
 h3 {
   margin: .5rem 0 .25rem;
   font-size: 1.25rem; }
@@ -346,7 +343,6 @@ ul {
   @media (max-width: 672px) {
     .wide {
       display: none; } }
-
 .break::after {
   content: '';
   position: absolute;
@@ -409,7 +405,6 @@ aside#a-header {
   @media (max-width: 672px) {
     aside#a-header {
       margin: 1,5rem 0; } }
-
 #splash {
   height: 60vmin;
   width: 100%;
@@ -437,13 +432,14 @@ body {
   @media (max-width: 1056px) {
     body {
       text-align: center; } }
-
-#current-work .dollar:before {
-  content: "$";
-  font-face: roba-bold, roboto, helvetica, arial, san-serif;
-  font-weight: bold;
-  font-size: 2rem;
-  vertical-align: super; }
+#current-work .dollar {
+  color: white; }
+  #current-work .dollar:before {
+    content: "$";
+    font-face: roba-bold, roboto, helvetica, arial, san-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    vertical-align: super; }
 
 #current-work aside {
   font-size: .8rem; }
@@ -523,13 +519,11 @@ nav {
   @media (max-width: 1056px) {
     .contact#interior {
       display: none; } }
-
 .contact#exterior {
   display: none; }
   @media (max-width: 1056px) {
     .contact#exterior {
       display: block; } }
-
 @media (max-width: 1056px) {
   .contact {
     height: inherit; } }
