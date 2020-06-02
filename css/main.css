@@ -260,8 +260,7 @@ a:hover {
 
 @font-face {
   font-family: "roba-bold";
-  src: url("/fonts/roba/RobaV0.2Low-Bold.eot");
-  src: url("/fonts/roba/RobaV0.2Low-Bold.woff") format("woff"), url("/fonts/roba/RobaV0.2Low-Bold.otf") format("opentype"), url("/fonts/roba/RobaV0.2Low-Bold.svg") format("svg"); }
+  src: url("/fonts/roba/RobaV0.3Low-Bold.woff") format("woff"); }
 
 h1, h2, .big {
   font-family: "roba-bold", roboto, helvetica, arial, san-serif; }
@@ -423,7 +422,8 @@ aside#a-header {
     padding: 1rem; }
   #splash h1::after {
     content: "*";
-    font-weight: bold; }
+    font-weight: bold;
+    font-family: roboto,helvetica,arial,san-serif; }
 
 body {
   display: flex;
