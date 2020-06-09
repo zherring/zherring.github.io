@@ -504,15 +504,12 @@ nav {
     #testimonials {
       margin-bottom: inherit; } }
   #testimonials .quote {
-    font-size: 1.1rem;
     font-weight: lighter;
-    color: white;
-    text-align: center; }
+    color: white; }
   #testimonials aside {
     font-size: .9rem;
     margin-top: -.8rem;
-    margin-bottom: 2rem;
-    text-align: center; }
+    margin-bottom: 2rem; }
 
 .contact#interior {
   margin-top: 5rem; }
