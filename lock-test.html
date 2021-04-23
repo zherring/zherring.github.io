@@ -88,16 +88,36 @@ var unlockProtocolConfig = {
   <a href="#current-work">Current Work</a> • <a href="#previous-work">Previous Work</a> • <a href="#contact">Contact</a>
 </nav> -->
 
-  <h1 id="splash"> Lock Test </h1>
+  <h1 id="splash">🔐 Lock/Unlock Test 🔐</h1>
+  <div class="col">
+    <h3>What dis?</h3>
+    <p> Check the list of all the comics I've made so far. Even better, everything I make for the next 3 years will be added to the list. 👉 </p>
+  </div>
+  <div class="col unlock-content locked">
+    <h3>Dope Comics</h3>
+    <p>
+    <em>It's locked bro. You got the key?</em>
+    </p>
+    <p class="unlock-content locked" onclick="window.unlockProtocol && window.unlockProtocol.loadCheckoutModal()"><button class="button">
+      Yes, I have the key!
+    </button>
+  </div>
+  <div class="col unlock-content unlocked">
+    <h3>Dope Comics</h3>
+    <ul>
+      <li>
+        <a href="https://drive.google.com/file/d/1lE8zASx2IrUBctOlV5QzIayuS3gBblwz/view?usp=sharing">Bron the Lucky in "Hail, Chaos!"</a>
+      </li>
+      <li>
+        <a href="https://drive.google.com/file/d/1bG0_cXxUWcNcVV_54xDDj6sHMsDUHROq/view?usp=sharing">County Line & Zombies</a>
+      </li>
+      <li>
+        <a href="https://drive.google.com/drive/folders/1DA9yWTmA0K42-aXQTkFr5QPchdQ6BYnL">Abducted: Series 1</a>
+      </li>
 
-  <p>This is unprotected content</p>
-      <span class="unlock-content locked">It's locked bro. Pay or GTFO.</span>
-      <span class="unlock-content unlocked">YOU DONE UNLOCKED IT</span>
-  </p>
+    </ul>
+  </div>
 
-  <p class="unlock-content locked" onclick="window.unlockProtocol && window.unlockProtocol.loadCheckoutModal()"><button class="button">
-    Unlock!
-  </button>
 </p>
 
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
