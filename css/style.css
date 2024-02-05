@@ -292,6 +292,8 @@ h2#aside {
 #header-mob {
   display: none;
 }
+
+/* mobile */
 @media only screen and (max-width: 767px) {
   #header {
     margin-bottom: 2rem;
@@ -302,9 +304,13 @@ h2#aside {
   }
 }
 
+/* up to tablet */
 @media only screen and (max-width: 767px) {
   #profile-pic {
     display: none;
+  }
+  body {
+    font-size: 16px;
   }
   h2 { 
     margin-bottom: 2.25rem; }
@@ -317,8 +323,8 @@ h2#aside {
   }
 }
 
+/* tablet and above */
 @media only screen and (min-width: 768px) {
-  
   .profile-container {
     display: flex;
     justify-content: space-between;
@@ -336,12 +342,15 @@ h2#aside {
   mix-blend-mode: multiply;
   }
 }
+
+/* Tablets only */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .profile-container {
     max-width: 768px; /* Keep the footprint the same width as the tablet */
     margin: 0 auto; /* Centered on the page */
     padding: 0 20px; /* Extra space around the two columns */
   }
+  p { font-size: 16px; }
 }
 
 a, a:visited {

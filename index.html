@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>Zach Herring is a Designer</title>
   <meta name="description" content="">
 
   <meta property="og:title" content="">
@@ -18,14 +18,7 @@
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&family=Mulish:wght@400;700;900&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/new.css">
-
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -61,6 +54,25 @@
     </div>
   </div>
   <script src="js/app.js"></script>
+  <script>
+    window.onload = function() {
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = 'https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&family=Mulish:wght@400;700;900&display=swap';
+      document.head.appendChild(link);
+  
+      var linkPreconnectGoogle = document.createElement('link');
+      linkPreconnectGoogle.rel = 'preconnect';
+      linkPreconnectGoogle.href = 'https://fonts.googleapis.com';
+      document.head.appendChild(linkPreconnectGoogle);
+  
+      var linkPreconnectGstatic = document.createElement('link');
+      linkPreconnectGstatic.rel = 'preconnect';
+      linkPreconnectGstatic.href = 'https://fonts.gstatic.com';
+      linkPreconnectGstatic.crossOrigin = 'anonymous'; // Important for crossorigin resources
+      document.head.appendChild(linkPreconnectGstatic);
+    };
+  </script>
 
 </body>
 
