@@ -258,6 +258,7 @@ h1,h2,h3,h4 {
 
 body {
   display: flex;
+  background: #FFFEF2;
   flex-direction: column;
   justify-content: center;
   max-width: 1024px;
