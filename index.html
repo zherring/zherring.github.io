@@ -19,6 +19,9 @@
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://unpkg.com/video.js/dist/video-js.min.css" rel="stylesheet">
+  <script src="https://unpkg.com/video.js/dist/video.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/interactjs@1.10.11/dist/interact.min.js"></script>
 </head>
 
 <body>
@@ -39,23 +42,69 @@
       <small>email: zherring + protonmail.com <br />
         socials: <a href="https://twitter.com/zherring">@zherring</a> | <a href="https://linkedin/in/zherring">in/zherring</a> | <a href="https://warpcast.com/zherring">fc/zherring</a>
       </small>
-<div id="writing">
-  <h2>Talks and Essays</h2>
-  <ul>
-    <li><a href="https://youtu.be/DtvSR8Q1MZ4" target="_blank">Stop Building 💩 People Don’t Need</a></li>
-    <li><a href="https://drive.google.com/open?id=1-Y8fqRuc_hyKIGxwLQExeBO3wtg1faF4" target="_blank">Designing for Blockchain</a></li>
-    <li><a href="https://drive.google.com/open?id=1PjWS-E-s8LuS7yf6FKHRHX7osBjTOejR" target="_blank">Client Management: The First 90 Days</a></li>
-    <!-- <li><a href="https://medium.com/thinking-on-making/when-bad-processes-break-good-designers-3a14eedc3523" target="_blank">When bad processes break good designers</a></li> -->
-    <!-- <li><a href="https://medium.com/@zherring/what-kind-of-research-should-i-be-doing-for-a-labs-relay-4b96d610a5cf">Hard Questions for Your Start-Up To Answer</a></li> -->
-    <li><a href="https://medium.com/@zherring/hard-questions-for-your-next-start-up-to-answer-1c3345ee1985">What Kind of Research Should I Be Doing for a Labs Relay?</a></li>
-  </ul>
-</div>
-</div>
-
+    <div id="writing">
+      <h2>Talks and Essays</h2>
+      <ul>
+        <li><a href="https://youtu.be/DtvSR8Q1MZ4" target="_blank">Stop Building 💩 People Don’t Need</a></li>
+        <li><a href="https://drive.google.com/open?id=1-Y8fqRuc_hyKIGxwLQExeBO3wtg1faF4" target="_blank">Designing for Blockchain</a></li>
+        <li><a href="https://drive.google.com/open?id=1PjWS-E-s8LuS7yf6FKHRHX7osBjTOejR" target="_blank">Client Management: The First 90 Days</a></li>
+        <!-- <li><a href="https://medium.com/thinking-on-making/when-bad-processes-break-good-designers-3a14eedc3523" target="_blank">When bad processes break good designers</a></li> -->
+        <!-- <li><a href="https://medium.com/@zherring/what-kind-of-research-should-i-be-doing-for-a-labs-relay-4b96d610a5cf">Hard Questions for Your Start-Up To Answer</a></li> -->
+        <li><a href="https://medium.com/@zherring/hard-questions-for-your-next-start-up-to-answer-1c3345ee1985">What Kind of Research Should I Be Doing for a Labs Relay?</a></li>
+      </ul>
     </div>
+  </div>
+</div>
+<section class="h-[100vh] w-[100vw] relative">
+  <h2>Work</h2>
+    <div id="niftyapes" class="draggable-video w-fit">
+      <video
+      id="NA-musicvideo"
+      class="video-js"
+      controls
+      preload="auto"
+      width="800"
+      
+      data-setup="{}">
+      <source src="https://zherring-portfolio.s3.amazonaws.com/final+of+the+final.m4v" type="video/mp4">
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a web browser that
+        <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+      </p>
+    </video>
+  </div>
+
+  
+</section>
   </div>
   <script src="js/app.js"></script>
   <script>
+     interact('.draggable-video').draggable({
+    inertia: true, // Enable inertia throwing
+    modifiers: [
+      interact.modifiers.restrictRect({
+        restriction: 'parent', // or you can specify an actual element e.g., document.getElementById('container')
+        endOnly: false,
+      })
+    ],
+    autoScroll: true, // Enable auto scrolling if the drag goes near the edge of the viewport
+    listeners: {
+      move: function (event) {
+        var target = event.target,
+            // Keep the dragged position in data-x/data-y attributes
+            x = (parseFloat(target.getAttribute('data-x')) || 0) + event.dx,
+            y = (parseFloat(target.getAttribute('data-y')) || 0) + event.dy;
+        
+        // Translate the element
+        target.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
+
+        // Update the position attributes
+        target.setAttribute('data-x', x);
+        target.setAttribute('data-y', y);
+      }
+    }
+  });
+
     window.onload = function() {
       var link = document.createElement('link');
       link.rel = 'stylesheet';
