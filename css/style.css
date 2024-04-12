@@ -355,7 +355,17 @@ h2#aside {
 }
 
 a, a:visited {
-  color: blue;
+  color: rgb(0, 17, 113);
+  background-color: #FFC700;
+  text-decoration: none;
+  padding: .1em;
+}
+
+a.small, a.small:visited {
+  color: rgb(0, 10, 123);
+  /* background-color: transparent; */
+  /* text-decoration: underline; */
+  
 }
 
 #writing {
