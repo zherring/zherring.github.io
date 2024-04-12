@@ -256,19 +256,23 @@ h1,h2,h3,h4 {
   font-family: 'Brawler', serif;
 }
 
+h2 { font-size: 68px; font-weight: 100;}
 body {
   display: flex;
   background: #FFFEF2;
   flex-direction: column;
   justify-content: center;
-  max-width: 1024px;
   font-family: 'brawler', serif;
   font-size: 20px;
 }
 
-#profile-pic {
-  
+header {
+  max-width: 1024px;
 }
+
+/* #profile-pic {
+  
+} */
 
 h2#aside {
   font-size: 25px;
@@ -363,10 +367,8 @@ a, a:visited {
 
 a.small, a.small:visited {
   color: rgb(0, 10, 123);
-  /* background-color: transparent; */
-  /* text-decoration: underline; */
-  
 }
+
 
 #writing {
   display: none;
