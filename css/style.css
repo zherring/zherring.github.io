@@ -356,10 +356,19 @@ h2#aside {
 
 a, a:visited {
   color: rgb(0, 17, 113);
-  background-color: #FFC700;
+  background: #FFC700;
   text-decoration: none;
   padding: .1em;
+  transition: background 0.3s ease;
+
+  &:hover {
+    /* background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red); */
+    background: #28ffbf;
+  }
 }
+
+
+
 
 a.small, a.small:visited {
   color: rgb(0, 10, 123);
