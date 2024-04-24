@@ -332,7 +332,7 @@ h2#aside {
   }
   .profile-text {
     width: 50%;
-    margin-top: 7rem;
+    /* margin-top: 7rem; */
   }
   .profile-image {
     width: 50%;
@@ -388,4 +388,13 @@ a.small, a.small:visited {
   }
 }
 
+h1 { 
+  font-size: 66px;
+  line-height: .9;
+  font-weight: 400;
+}
+
+.text-sm {
+  font-size: 17px;
+}
 
