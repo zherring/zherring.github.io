@@ -263,7 +263,8 @@ body {
   justify-content: center;
   max-width: 1024px;
   font-family: 'brawler', serif;
-  font-size: 20px;
+  font-size: 19px;
+  line-height: 1.5;
 }
 
 #profile-pic {
