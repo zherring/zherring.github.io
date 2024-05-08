@@ -10,4 +10,12 @@ module.exports = merge(common, {
     open: true,
     static: ['./'],
   },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
+  },
 });
