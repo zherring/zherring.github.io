@@ -22,7 +22,9 @@ html {
   line-height: 1.4;
   font-family: 'Brawler', serif;
 }
-
+html, body {
+  width: 100%; 
+}
 
 /*
  * Remove text-shadow in selection highlight:
@@ -191,6 +193,7 @@ textarea {
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
+
 @media print {
   *,
   *::before,
@@ -200,6 +203,7 @@ textarea {
     /* Black prints faster */
     box-shadow: none !important;
     text-shadow: none !important;
+    box-sizing: border-box;
   }
 
   a,
@@ -261,7 +265,6 @@ body {
   background: #FFFEF2;
   flex-direction: column;
   justify-content: center;
-  max-width: 1024px;
   font-family: 'brawler', serif;
   font-size: 20px;
 }
@@ -344,6 +347,10 @@ h2#aside {
   }
 }
 
+.profile-container {
+  max-width: 1024px;
+  /* margin: 0 auto; */
+}
 /* Tablets only */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .profile-container {
@@ -396,5 +403,22 @@ h1 {
 
 .text-sm {
   font-size: 17px;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Brawler', serif;
+}
+
+.mono {
+  font-family: 'Roboto Mono', monospace;
+  &.sm {
+    font-size: 14px;
+  }
+}
+
+
+#bp-app {
+  border-radius: 6px;
+  box-shadow: 0 20px 20px rgba(85, 36, 0, 0.35);
 }
 

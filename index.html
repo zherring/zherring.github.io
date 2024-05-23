@@ -21,8 +21,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
-  <!-- Add your site or application content here -->
+<body class="">
   <div class="profile-container">
     <div class="profile-image">
       <img id="profile-pic" src="img/profile.jpg" alt="Profile picture of Zach Herring, art by Patrick Leger" />
@@ -38,34 +37,45 @@
       <p>
         <!-- I’m taking a break to follow my curiosity and see what the next adventure is.  -->
         Feel free to reach out at zherring [at] protonmail.com <br />
-        or on socials: <a class="text-sm" href="https://twitter.com/zherring">@zherring</a>, <a class="small" href="https://linkedin/in/zherring">in/zherring</a>, & <a class="small" href="https://warpcast.com/zherring">fc/zherring</a>
+        or on socials: <a class="small" href="https://twitter.com/zherring">@zherring</a>, <a class="small" href="https://linkedin/in/zherring">in/zherring</a>, & <a class="small" href="https://warpcast.com/zherring">fc/zherring</a>
       </p>
+    </div>
   </div>
+  <div>
+    <h2 class="w-full pl-12 text-5xl mt-10">Projects</h2>
+    <div class="flex flex-row mt-10 mono sm leading-6">
+      <div class="w-12 sm:block">
 
-      <!-- <div id="writing">
-        <h2>Talks and Essays</h2>
-        <ul>
-          <li><a href="https://youtu.be/DtvSR8Q1MZ4" target="_blank">Stop Building 💩 People Don’t Need</a></li>
-          <li><a href="https://drive.google.com/open?id=1-Y8fqRuc_hyKIGxwLQExeBO3wtg1faF4" target="_blank">Designing for Blockchain</a></li>
-          <li><a href="https://drive.google.com/open?id=1PjWS-E-s8LuS7yf6FKHRHX7osBjTOejR" target="_blank">Client Management: The First 90 Days</a></li>
-          <li><a href="https://medium.com/thinking-on-making/when-bad-processes-break-good-designers-3a14eedc3523" target="_blank">When bad processes break good designers</a></li>
-          <li><a href="https://medium.com/@zherring/what-kind-of-research-should-i-be-doing-for-a-labs-relay-4b96d610a5cf">Hard Questions for Your Start-Up To Answer</a></li>
-          <li><a href="https://medium.com/@zherring/hard-questions-for-your-next-start-up-to-answer-1c3345ee1985">What Kind of Research Should I Be Doing for a Labs Relay?</a></li>
+      </div>
+      <div class="w-full sm:w-[350px] sm:min-w-[350px]">
+        <h3 class="text-4xl mb-2">BasePaint</h3>
+        <ul class="list-disc ml-4">
+          <li>Idea to launch in two weeks w/ <a href="https://w1nt3r.mirror.xyz/">@w1nt3r</a></li>
+          <li>Real time art canvas + in-app chat</li>
+          <li>Over 160k digital art prints collected</li>
+          <li>$1.2M sales split between 2k artists. </li>
+          <li><a href="https://metaversal.banklesshq.com/p/basepaint">Bankless's Intro to BasePaint</a></li>
+          <!-- <li><a href="https://youtu.be/6u-2RYOFNI8?feature=shared&t=2253">BasePaint on Internet Explorers</a></li> -->
         </ul>
-      </div> -->
+      </div>
+      <div class="flex-1 w-full sm:flex-1">
+        <div class="w-full flex justify-start items-center p-5">
+          <video id="bp-app" class="max-w-[850px]" autoplay loop muted>
+            <source src="https://zherring-portfolio.s3.amazonaws.com/basepaint-copress.m4v" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+        </div>
       </div>
     </div>
-    <div>
-      <h2>Desk Shot</h2>
-      <p>Things I've made in the last 1,095 days</p>
-      
     </div>
+  </div>
   <script src="js/app.js"></script>
   <script>
     window.onload = function() {
       var link = document.createElement('link');
       link.rel = 'stylesheet';
-      link.href = 'https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&family=Mulish:wght@400;700;900&display=swap';
+      link.href = 'https://fonts.googleapis.com/css2?family=Brawler:wght@400;700&family=Mulish:wght@400;700;900&family=Roboto+Mono:wght@400;700&display=swap';
       document.head.appendChild(link);
   
       var linkPreconnectGoogle = document.createElement('link');
@@ -81,6 +91,6 @@
     };
   </script>
 
-</body>
+  </body>
 
 </html>
